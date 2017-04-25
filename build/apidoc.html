@@ -51,7 +51,7 @@
 
         href="http://inversify.io"
 
-    >inversify (v3.3.0)</a>
+    >inversify (v4.0.0)</a>
 </h1>
 <h4>A powerful and lightweight inversion of control container for JavaScript and Node.js apps powered by TypeScript.</h4>
 <div class="apidocSectionDiv"><a
@@ -66,222 +66,6 @@
             <a class="apidocElementLiA" href="#apidoc.element.inversify.Container">
             function <span class="apidocSignatureSpan">inversify.</span>Container
             <span class="apidocSignatureSpan">(containerOptions)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.merge">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.merge
-            <span class="apidocSignatureSpan">(container1, container2)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype._get">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype._get
-            <span class="apidocSignatureSpan">(avoidConstraints, isMultiInject, targetType, serviceIdentifier, key, value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype._planAndResolve">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype._planAndResolve
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.applyCustomMetadataReader">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.applyCustomMetadataReader
-            <span class="apidocSignatureSpan">(metadataReader)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.applyMiddleware">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.applyMiddleware
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.bind">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.bind
-            <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.createChild">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.createChild
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.get">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.get
-            <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.getAll">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.getAll
-            <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.getAllNamed">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.getAllNamed
-            <span class="apidocSignatureSpan">(serviceIdentifier, named)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.getAllTagged">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.getAllTagged
-            <span class="apidocSignatureSpan">(serviceIdentifier, key, value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.getNamed">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.getNamed
-            <span class="apidocSignatureSpan">(serviceIdentifier, named)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.getTagged">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.getTagged
-            <span class="apidocSignatureSpan">(serviceIdentifier, key, value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.isBound">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.isBound
-            <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.isBoundNamed">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.isBoundNamed
-            <span class="apidocSignatureSpan">(serviceIdentifier, named)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.isBoundTagged">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.isBoundTagged
-            <span class="apidocSignatureSpan">(serviceIdentifier, key, value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.load">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.load
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.rebind">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.rebind
-            <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.resolve">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.resolve
-            <span class="apidocSignatureSpan">(constructorFunction)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.restore">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.restore
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.snapshot">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.snapshot
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.unbind">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.unbind
-            <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.unbindAll">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.unbindAll
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.unload">
-            function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.unload
-            <span class="apidocSignatureSpan">()</span>
             </a>
 
         </li>
@@ -436,6 +220,168 @@
 
         </li>
 
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>binding</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>binding_in_syntax</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>binding_in_when_on_syntax</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>binding_on_syntax</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>binding_to_syntax</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>binding_when_on_syntax</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>binding_when_syntax</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>constraint_helpers</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>container</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>container_module</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>container_snapshot</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>context</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>decorator_utils</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>instantiation</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>lookup</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>metadata</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>metadata_reader</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>multi_inject</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>plan</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>planner</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>queryable_string</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>reflection_utils</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>request</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>resolver</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>serialization</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>target</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">inversify.</span>target_name</span>
+
+        </li>
+
     </ol></li>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container">module inversify.Container</a><ol>
@@ -452,19 +398,6 @@
         <li>
 
             <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.merge">
-            function <span class="apidocSignatureSpan">inversify.Container.</span>merge
-            <span class="apidocSignatureSpan">(container1, container2)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.merge">module inversify.Container.merge</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.merge.merge">
             function <span class="apidocSignatureSpan">inversify.Container.</span>merge
             <span class="apidocSignatureSpan">(container1, container2)</span>
             </a>
@@ -684,311 +617,156 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype._get">module inversify.Container.prototype._get</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.binding">module inversify.binding</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype._get._get">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>_get
-            <span class="apidocSignatureSpan">(avoidConstraints, isMultiInject, targetType, serviceIdentifier, key, value)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.binding.Binding">
+            function <span class="apidocSignatureSpan">inversify.binding.</span>Binding
+            <span class="apidocSignatureSpan">(serviceIdentifier, defaultScope)</span>
             </a>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype._planAndResolve">module inversify.Container.prototype._planAndResolve</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.binding_in_syntax">module inversify.binding_in_syntax</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype._planAndResolve._planAndResolve">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>_planAndResolve
-            <span class="apidocSignatureSpan">()</span>
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.binding_in_syntax.BindingInSyntax">
+            function <span class="apidocSignatureSpan">inversify.binding_in_syntax.</span>BindingInSyntax
+            <span class="apidocSignatureSpan">(binding)</span>
             </a>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.applyCustomMetadataReader">module inversify.Container.prototype.applyCustomMetadataReader</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.binding_in_when_on_syntax">module inversify.binding_in_when_on_syntax</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.applyCustomMetadataReader.applyCustomMetadataReader">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>applyCustomMetadataReader
-            <span class="apidocSignatureSpan">(metadataReader)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.binding_in_when_on_syntax.BindingInWhenOnSyntax">
+            function <span class="apidocSignatureSpan">inversify.binding_in_when_on_syntax.</span>BindingInWhenOnSyntax
+            <span class="apidocSignatureSpan">(binding)</span>
             </a>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.applyMiddleware">module inversify.Container.prototype.applyMiddleware</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.binding_on_syntax">module inversify.binding_on_syntax</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.applyMiddleware.applyMiddleware">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>applyMiddleware
-            <span class="apidocSignatureSpan">()</span>
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.binding_on_syntax.BindingOnSyntax">
+            function <span class="apidocSignatureSpan">inversify.binding_on_syntax.</span>BindingOnSyntax
+            <span class="apidocSignatureSpan">(binding)</span>
             </a>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.bind">module inversify.Container.prototype.bind</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.binding_to_syntax">module inversify.binding_to_syntax</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.bind.bind">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>bind
-            <span class="apidocSignatureSpan">()</span>
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.binding_to_syntax.BindingToSyntax">
+            function <span class="apidocSignatureSpan">inversify.binding_to_syntax.</span>BindingToSyntax
+            <span class="apidocSignatureSpan">(binding)</span>
             </a>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.createChild">module inversify.Container.prototype.createChild</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.binding_when_on_syntax">module inversify.binding_when_on_syntax</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.createChild.createChild">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>createChild
-            <span class="apidocSignatureSpan">()</span>
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.binding_when_on_syntax.BindingWhenOnSyntax">
+            function <span class="apidocSignatureSpan">inversify.binding_when_on_syntax.</span>BindingWhenOnSyntax
+            <span class="apidocSignatureSpan">(binding)</span>
             </a>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.get">module inversify.Container.prototype.get</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.binding_when_syntax">module inversify.binding_when_syntax</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.get.get">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>get
-            <span class="apidocSignatureSpan">(serviceIdentifier)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.binding_when_syntax.BindingWhenSyntax">
+            function <span class="apidocSignatureSpan">inversify.binding_when_syntax.</span>BindingWhenSyntax
+            <span class="apidocSignatureSpan">(binding)</span>
             </a>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.getAll">module inversify.Container.prototype.getAll</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.constraint_helpers">module inversify.constraint_helpers</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.getAll.getAll">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>getAll
-            <span class="apidocSignatureSpan">(serviceIdentifier)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.constraint_helpers.namedConstraint">
+            function <span class="apidocSignatureSpan">inversify.constraint_helpers.</span>namedConstraint
+            <span class="apidocSignatureSpan">(value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.constraint_helpers.taggedConstraint">
+            function <span class="apidocSignatureSpan">inversify.constraint_helpers.</span>taggedConstraint
+            <span class="apidocSignatureSpan">(key)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.constraint_helpers.traverseAncerstors">
+            function <span class="apidocSignatureSpan">inversify.constraint_helpers.</span>traverseAncerstors
+            <span class="apidocSignatureSpan">(request, constraint)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.constraint_helpers.typeConstraint">
+            function <span class="apidocSignatureSpan">inversify.constraint_helpers.</span>typeConstraint
+            <span class="apidocSignatureSpan">(type)</span>
             </a>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.getAllNamed">module inversify.Container.prototype.getAllNamed</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.container">module inversify.container</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.getAllNamed.getAllNamed">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>getAllNamed
-            <span class="apidocSignatureSpan">(serviceIdentifier, named)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.container.Container">
+            function <span class="apidocSignatureSpan">inversify.container.</span>Container
+            <span class="apidocSignatureSpan">(containerOptions)</span>
             </a>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.getAllTagged">module inversify.Container.prototype.getAllTagged</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.container_module">module inversify.container_module</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.getAllTagged.getAllTagged">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>getAllTagged
-            <span class="apidocSignatureSpan">(serviceIdentifier, key, value)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.getNamed">module inversify.Container.prototype.getNamed</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.getNamed.getNamed">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>getNamed
-            <span class="apidocSignatureSpan">(serviceIdentifier, named)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.getTagged">module inversify.Container.prototype.getTagged</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.getTagged.getTagged">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>getTagged
-            <span class="apidocSignatureSpan">(serviceIdentifier, key, value)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.isBound">module inversify.Container.prototype.isBound</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.isBound.isBound">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>isBound
-            <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.isBoundNamed">module inversify.Container.prototype.isBoundNamed</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.isBoundNamed.isBoundNamed">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>isBoundNamed
-            <span class="apidocSignatureSpan">(serviceIdentifier, named)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.isBoundTagged">module inversify.Container.prototype.isBoundTagged</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.isBoundTagged.isBoundTagged">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>isBoundTagged
-            <span class="apidocSignatureSpan">(serviceIdentifier, key, value)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.load">module inversify.Container.prototype.load</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.load.load">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>load
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.rebind">module inversify.Container.prototype.rebind</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.rebind.rebind">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>rebind
-            <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.resolve">module inversify.Container.prototype.resolve</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.resolve.resolve">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>resolve
-            <span class="apidocSignatureSpan">(constructorFunction)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.restore">module inversify.Container.prototype.restore</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.restore.restore">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>restore
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.snapshot">module inversify.Container.prototype.snapshot</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.snapshot.snapshot">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>snapshot
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.unbind">module inversify.Container.prototype.unbind</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.unbind.unbind">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>unbind
-            <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.unbindAll">module inversify.Container.prototype.unbindAll</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.unbindAll.unbindAll">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>unbindAll
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.Container.prototype.unload">module inversify.Container.prototype.unload</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.Container.prototype.unload.unload">
-            function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>unload
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.ContainerModule">module inversify.ContainerModule</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.ContainerModule.ContainerModule">
-            function <span class="apidocSignatureSpan">inversify.</span>ContainerModule
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.container_module.ContainerModule">
+            function <span class="apidocSignatureSpan">inversify.container_module.</span>ContainerModule
             <span class="apidocSignatureSpan">(registry)</span>
             </a>
 
@@ -996,26 +774,57 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.decorate">module inversify.decorate</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.container_snapshot">module inversify.container_snapshot</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.decorate.decorate">
-            function <span class="apidocSignatureSpan">inversify.</span>decorate
-            <span class="apidocSignatureSpan">(decorator, target, parameterIndex)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.container_snapshot.ContainerSnapshot">
+            function <span class="apidocSignatureSpan">inversify.container_snapshot.</span>ContainerSnapshot
+            <span class="apidocSignatureSpan">()</span>
             </a>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.getServiceIdentifierAsString">module inversify.getServiceIdentifierAsString</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.context">module inversify.context</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.getServiceIdentifierAsString.getServiceIdentifierAsString">
-            function <span class="apidocSignatureSpan">inversify.</span>getServiceIdentifierAsString
-            <span class="apidocSignatureSpan">(serviceIdentifier)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.context.Context">
+            function <span class="apidocSignatureSpan">inversify.context.</span>Context
+            <span class="apidocSignatureSpan">(container)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.decorator_utils">module inversify.decorator_utils</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.decorator_utils.decorate">
+            function <span class="apidocSignatureSpan">inversify.decorator_utils.</span>decorate
+            <span class="apidocSignatureSpan">(decorator, target, parameterIndex)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.decorator_utils.tagParameter">
+            function <span class="apidocSignatureSpan">inversify.decorator_utils.</span>tagParameter
+            <span class="apidocSignatureSpan">(annotationTarget, propertyName, parameterIndex, metadata)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.decorator_utils.tagProperty">
+            function <span class="apidocSignatureSpan">inversify.decorator_utils.</span>tagProperty
+            <span class="apidocSignatureSpan">(annotationTarget, propertyName, metadata)</span>
             </a>
 
         </li>
@@ -1061,12 +870,64 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.multiInject">module inversify.multiInject</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.instantiation">module inversify.instantiation</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.multiInject.multiInject">
-            function <span class="apidocSignatureSpan">inversify.</span>multiInject
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.instantiation.resolveInstance">
+            function <span class="apidocSignatureSpan">inversify.instantiation.</span>resolveInstance
+            <span class="apidocSignatureSpan">(constr, childRequests, resolveRequest)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.lookup">module inversify.lookup</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.lookup.Lookup">
+            function <span class="apidocSignatureSpan">inversify.lookup.</span>Lookup
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.metadata">module inversify.metadata</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.metadata.Metadata">
+            function <span class="apidocSignatureSpan">inversify.metadata.</span>Metadata
+            <span class="apidocSignatureSpan">(key, value)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.metadata_reader">module inversify.metadata_reader</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.metadata_reader.MetadataReader">
+            function <span class="apidocSignatureSpan">inversify.metadata_reader.</span>MetadataReader
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.multi_inject">module inversify.multi_inject</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.multi_inject.multiInject">
+            function <span class="apidocSignatureSpan">inversify.multi_inject.</span>multiInject
             <span class="apidocSignatureSpan">(serviceIdentifier)</span>
             </a>
 
@@ -1087,19 +948,6 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.namedConstraint">module inversify.namedConstraint</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.namedConstraint.namedConstraint">
-            function <span class="apidocSignatureSpan">inversify.</span>namedConstraint
-            <span class="apidocSignatureSpan">(value)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
     <li class="apidocModuleLi"><a href="#apidoc.module.inversify.optional">module inversify.optional</a><ol>
 
         <li>
@@ -1107,6 +955,151 @@
             <a class="apidocElementLiA" href="#apidoc.element.inversify.optional.optional">
             function <span class="apidocSignatureSpan">inversify.</span>optional
             <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.plan">module inversify.plan</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.plan.Plan">
+            function <span class="apidocSignatureSpan">inversify.plan.</span>Plan
+            <span class="apidocSignatureSpan">(parentContext, rootRequest)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.planner">module inversify.planner</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.planner.createMockRequest">
+            function <span class="apidocSignatureSpan">inversify.planner.</span>createMockRequest
+            <span class="apidocSignatureSpan">(container, serviceIdentifier, key, value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.planner.getBindingDictionary">
+            function <span class="apidocSignatureSpan">inversify.planner.</span>getBindingDictionary
+            <span class="apidocSignatureSpan">(cntnr)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.planner.plan">
+            function <span class="apidocSignatureSpan">inversify.planner.</span>plan
+            <span class="apidocSignatureSpan">(metadataReader, container, isMultiInject, targetType, serviceIdentifier, key, value, avoidConstraints)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.queryable_string">module inversify.queryable_string</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.queryable_string.QueryableString">
+            function <span class="apidocSignatureSpan">inversify.queryable_string.</span>QueryableString
+            <span class="apidocSignatureSpan">(str)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.reflection_utils">module inversify.reflection_utils</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.reflection_utils.getDependencies">
+            function <span class="apidocSignatureSpan">inversify.reflection_utils.</span>getDependencies
+            <span class="apidocSignatureSpan">(metadataReader, func)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.request">module inversify.request</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.request.Request">
+            function <span class="apidocSignatureSpan">inversify.request.</span>Request
+            <span class="apidocSignatureSpan">(serviceIdentifier, parentContext, parentRequest, bindings, target)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.resolver">module inversify.resolver</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.resolver.resolve">
+            function <span class="apidocSignatureSpan">inversify.resolver.</span>resolve
+            <span class="apidocSignatureSpan">(context)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.serialization">module inversify.serialization</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.serialization.circularDependencyToException">
+            function <span class="apidocSignatureSpan">inversify.serialization.</span>circularDependencyToException
+            <span class="apidocSignatureSpan">(request, previousServiceIdentifiers)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.serialization.getFunctionName">
+            function <span class="apidocSignatureSpan">inversify.serialization.</span>getFunctionName
+            <span class="apidocSignatureSpan">(v)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.serialization.getServiceIdentifierAsString">
+            function <span class="apidocSignatureSpan">inversify.serialization.</span>getServiceIdentifierAsString
+            <span class="apidocSignatureSpan">(serviceIdentifier)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.serialization.listMetadataForTarget">
+            function <span class="apidocSignatureSpan">inversify.serialization.</span>listMetadataForTarget
+            <span class="apidocSignatureSpan">(serviceIdentifierString, target)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.serialization.listRegisteredBindingsForServiceIdentifier">
+            function <span class="apidocSignatureSpan">inversify.serialization.</span>listRegisteredBindingsForServiceIdentifier
+            <span class="apidocSignatureSpan">(container, serviceIdentifier, getBindings)</span>
             </a>
 
         </li>
@@ -1126,52 +1119,26 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.taggedConstraint">module inversify.taggedConstraint</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.target">module inversify.target</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.taggedConstraint.taggedConstraint">
-            function <span class="apidocSignatureSpan">inversify.</span>taggedConstraint
-            <span class="apidocSignatureSpan">(key)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.target.Target">
+            function <span class="apidocSignatureSpan">inversify.target.</span>Target
+            <span class="apidocSignatureSpan">(type, name, serviceIdentifier, namedOrTagged)</span>
             </a>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.targetName">module inversify.targetName</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.target_name">module inversify.target_name</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.targetName.targetName">
-            function <span class="apidocSignatureSpan">inversify.</span>targetName
+            <a class="apidocElementLiA" href="#apidoc.element.inversify.target_name.targetName">
+            function <span class="apidocSignatureSpan">inversify.target_name.</span>targetName
             <span class="apidocSignatureSpan">(name)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.traverseAncerstors">module inversify.traverseAncerstors</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.traverseAncerstors.traverseAncerstors">
-            function <span class="apidocSignatureSpan">inversify.</span>traverseAncerstors
-            <span class="apidocSignatureSpan">(request, constraint)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.inversify.typeConstraint">module inversify.typeConstraint</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.inversify.typeConstraint.typeConstraint">
-            function <span class="apidocSignatureSpan">inversify.</span>typeConstraint
-            <span class="apidocSignatureSpan">(type)</span>
             </a>
 
         </li>
@@ -1238,485 +1205,6 @@
 
 
     <h2>
-        <a href="#apidoc.element.inversify.Container.merge" id="apidoc.element.inversify.Container.merge">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.merge
-        <span class="apidocSignatureSpan">(container1, container2)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.merge = function (container1, container2) {
-    var container = new Container();
-    var bindingDictionary = planner_1.getBindingDictionary(container);
-    var bindingDictionary1 = planner_1.getBindingDictionary(container1);
-    var bindingDictionary2 = planner_1.getBindingDictionary(container2);
-    function copyDictionary(origing, destination) {
-        origing.traverse(function (key, value) {
-            value.forEach(function (binding) {
-                destination.add(binding.serviceIdentifier, binding.clone());
-            });
-        });
-    }
-    copyDictionary(bindingDictionary1, bindingDictionary);
-    copyDictionary(bindingDictionary2, bindingDictionary);
-    return container;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype._get" id="apidoc.element.inversify.Container.prototype._get">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype._get
-        <span class="apidocSignatureSpan">(avoidConstraints, isMultiInject, targetType, serviceIdentifier, key, value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype._get = function (avoidConstraints, isMultiInject, targetType, serviceIdentifier, key, value) {
-    var result = null;
-    var defaultArgs = {
-        avoidConstraints: avoidConstraints,
-        contextInterceptor: function (context) { return context; },
-        isMultiInject: isMultiInject,
-        key: key,
-        serviceIdentifier: serviceIdentifier,
-        targetType: targetType,
-        value: value
-    };
-    if (this._middleware) {
-        result = this._middleware(defaultArgs);
-        if (result === undefined || result === null) {
-            throw new Error(ERROR_MSGS.INVALID_MIDDLEWARE_RETURN);
-        }
-    }
-    else {
-        result = this._planAndResolve()(defaultArgs);
-    }
-    return result;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype._planAndResolve" id="apidoc.element.inversify.Container.prototype._planAndResolve">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype._planAndResolve
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype._planAndResolve = function () {
-    var _this = this;
-    return function (args) {
-        var context = planner_1.plan(_this._metadataReader, _this, args.isMultiInject, args.targetType, args.serviceIdentifier,
-args.key, args.value, args.avoidConstraints);
-        context = args.contextInterceptor(context);
-        var result = resolver_1.resolve(context);
-        return result;
-    };
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.applyCustomMetadataReader" id="apidoc.element.inversify.Container.prototype.applyCustomMetadataReader">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.applyCustomMetadataReader
-        <span class="apidocSignatureSpan">(metadataReader)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.applyCustomMetadataReader = function (metadataReader) {
-    this._metadataReader = metadataReader;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.applyMiddleware" id="apidoc.element.inversify.Container.prototype.applyMiddleware">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.applyMiddleware
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.applyMiddleware = function () {
-    var middlewares = [];
-    for (var _i = 0; _i &#x3c; arguments.length; _i++) {
-        middlewares[_i] = arguments[_i];
-    }
-    var initial = (this._middleware) ? this._middleware : this._planAndResolve();
-    this._middleware = middlewares.reduce(function (prev, curr) {
-        return curr(prev);
-    }, initial);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.bind" id="apidoc.element.inversify.Container.prototype.bind">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.bind
-        <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.bind = function (serviceIdentifier) {
-    var defaultScope = literal_types_1.BindingScopeEnum.Transient;
-    defaultScope = (this.options.defaultScope === defaultScope) ? defaultScope : literal_types_1.BindingScopeEnum.Singleton;
-    var binding = new binding_1.Binding(serviceIdentifier, defaultScope);
-    this._bindingDictionary.add(serviceIdentifier, binding);
-    return new binding_to_syntax_1.BindingToSyntax(binding);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.createChild" id="apidoc.element.inversify.Container.prototype.createChild">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.createChild
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.createChild = function () {
-    var child = new Container();
-    child.parent = this;
-    return child;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.get" id="apidoc.element.inversify.Container.prototype.get">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.get
-        <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.get = function (serviceIdentifier) {
-    return this._get(false, false, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.getAll" id="apidoc.element.inversify.Container.prototype.getAll">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.getAll
-        <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.getAll = function (serviceIdentifier) {
-    return this._get(true, true, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.getAllNamed" id="apidoc.element.inversify.Container.prototype.getAllNamed">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.getAllNamed
-        <span class="apidocSignatureSpan">(serviceIdentifier, named)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.getAllNamed = function (serviceIdentifier, named) {
-    return this.getAllTagged(serviceIdentifier, METADATA_KEY.NAMED_TAG, named);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.getAllTagged" id="apidoc.element.inversify.Container.prototype.getAllTagged">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.getAllTagged
-        <span class="apidocSignatureSpan">(serviceIdentifier, key, value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.getAllTagged = function (serviceIdentifier, key, value) {
-    return this._get(false, true, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier, key, value);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.getNamed" id="apidoc.element.inversify.Container.prototype.getNamed">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.getNamed
-        <span class="apidocSignatureSpan">(serviceIdentifier, named)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.getNamed = function (serviceIdentifier, named) {
-    return this.getTagged(serviceIdentifier, METADATA_KEY.NAMED_TAG, named);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.getTagged" id="apidoc.element.inversify.Container.prototype.getTagged">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.getTagged
-        <span class="apidocSignatureSpan">(serviceIdentifier, key, value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.getTagged = function (serviceIdentifier, key, value) {
-    return this._get(false, false, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier, key, value);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.isBound" id="apidoc.element.inversify.Container.prototype.isBound">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.isBound
-        <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.isBound = function (serviceIdentifier) {
-    return this._bindingDictionary.hasKey(serviceIdentifier);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.isBoundNamed" id="apidoc.element.inversify.Container.prototype.isBoundNamed">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.isBoundNamed
-        <span class="apidocSignatureSpan">(serviceIdentifier, named)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.isBoundNamed = function (serviceIdentifier, named) {
-    return this.isBoundTagged(serviceIdentifier, METADATA_KEY.NAMED_TAG, named);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.isBoundTagged" id="apidoc.element.inversify.Container.prototype.isBoundTagged">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.isBoundTagged
-        <span class="apidocSignatureSpan">(serviceIdentifier, key, value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.isBoundTagged = function (serviceIdentifier, key, value) {
-    var bindings = this._bindingDictionary.get(serviceIdentifier);
-    var request = planner_1.createMockRequest(this, serviceIdentifier, key, value);
-    return bindings.some(function (b) { return b.constraint(request); });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.load" id="apidoc.element.inversify.Container.prototype.load">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.load
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.load = function () {
-    var _this = this;
-    var modules = [];
-    for (var _i = 0; _i &#x3c; arguments.length; _i++) {
-        modules[_i] = arguments[_i];
-    }
-    var setModuleId = function (bindingToSyntax, moduleId) {
-        bindingToSyntax._binding.moduleId = moduleId;
-    };
-    var getBindFunction = function (moduleId) {
-        return function (serviceIdentifier) {
-            var bindingToSyntax = _this.bind.call(_this, serviceIdentifier);
-            setModuleId(bindingToSyntax, moduleId);
-            return bindingToSyntax;
-        };
-    };
-    var getUnbindFunction = function (moduleId) {
-        return function (serviceIdentifier) {
-            var _unbind = _this.unbind.bind(_this);
-            _unbind(serviceIdentifier);
-        };
-    };
-    var getIsboundFunction = function (moduleId) {
-        return function (serviceIdentifier) {
-            var _isBound = _this.isBound.bind(_this);
-            return _isBound(serviceIdentifier);
-        };
-    };
-    var getRebindFunction = function (moduleId) {
-        return function (serviceIdentifier) {
-            var bindingToSyntax = _this.rebind.call(_this, serviceIdentifier);
-            setModuleId(bindingToSyntax, moduleId);
-            return bindingToSyntax;
-        };
-    };
-    modules.forEach(function (module) {
-        var bindFunction = getBindFunction(module.guid);
-        var unbindFunction = getUnbindFunction(module.guid);
-        var isboundFunction = getIsboundFunction(module.guid);
-        var rebindFunction = getRebindFunction(module.guid);
-        module.registry(bindFunction, unbindFunction, isboundFunction, rebindFunction);
-    });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.rebind" id="apidoc.element.inversify.Container.prototype.rebind">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.rebind
-        <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.rebind = function (serviceIdentifier) {
-    this.unbind(serviceIdentifier);
-    return this.bind(serviceIdentifier);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.resolve" id="apidoc.element.inversify.Container.prototype.resolve">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.resolve
-        <span class="apidocSignatureSpan">(constructorFunction)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.resolve = function (constructorFunction) {
-    var tempContainer = new Container();
-    tempContainer.bind(constructorFunction).toSelf();
-    tempContainer.parent = this;
-    return tempContainer.get(constructorFunction);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.restore" id="apidoc.element.inversify.Container.prototype.restore">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.restore
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.restore = function () {
-    var snapshot = this._snapshots.pop();
-    if (snapshot === undefined) {
-        throw new Error(ERROR_MSGS.NO_MORE_SNAPSHOTS_AVAILABLE);
-    }
-    this._bindingDictionary = snapshot.bindings;
-    this._middleware = snapshot.middleware;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.snapshot" id="apidoc.element.inversify.Container.prototype.snapshot">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.snapshot
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.snapshot = function () {
-    this._snapshots.push(container_snapshot_1.ContainerSnapshot.of(this._bindingDictionary.clone(), this._middleware));
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.unbind" id="apidoc.element.inversify.Container.prototype.unbind">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.unbind
-        <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.unbind = function (serviceIdentifier) {
-    try {
-        this._bindingDictionary.remove(serviceIdentifier);
-    }
-    catch (e) {
-        throw new Error(ERROR_MSGS.CANNOT_UNBIND + &#x22; &#x22; + serialization_1.getServiceIdentifierAsString(serviceIdentifier));
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.unbindAll" id="apidoc.element.inversify.Container.prototype.unbindAll">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.unbindAll
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.unbindAll = function () {
-    this._bindingDictionary = new lookup_1.Lookup();
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.unload" id="apidoc.element.inversify.Container.prototype.unload">
-        function <span class="apidocSignatureSpan">inversify.</span>Container.prototype.unload
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Container.prototype.unload = function () {
-    var _this = this;
-    var modules = [];
-    for (var _i = 0; _i &#x3c; arguments.length; _i++) {
-        modules[_i] = arguments[_i];
-    }
-    var conditionFactory = function (expected) { return function (item) {
-        return item.moduleId === expected;
-    }; };
-    modules.forEach(function (module) {
-        var condition = conditionFactory(module.guid);
-        _this._bindingDictionary.removeByCondition(condition);
-    });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
         <a href="#apidoc.element.inversify.ContainerModule" id="apidoc.element.inversify.ContainerModule">
         function <span class="apidocSignatureSpan">inversify.</span>ContainerModule
         <span class="apidocSignatureSpan">(registry)</span>
@@ -1747,7 +1235,23 @@ args.key, args.value, args.avoidConstraints);
         _decorate([decorator], target);
     }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        }
+    }
+    paramOrPropertyMetadata.push(metadata);
+    paramsOrPropertiesMetadata[key] = paramOrPropertyMetadata;
+    Reflect.defineMetadata(metadataKey, paramsOrPropertiesMetadata, annotationTarget);
+}
+function _decorate(decorators, target) {
+    Reflect.<span class="apidocCodeKeywordSpan">decorate</span>(decorators, target);
+}
+function _param(paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); };
+}
+function decorate(decorator, target, parameterIndex) {
+    if (typeof parameterIndex === &#x22;number&#x22;) {
+        _decorate([_param(parameterIndex, decorator)], target);
+...</pre></li>
     </ul>
 
 
@@ -1772,7 +1276,24 @@ args.key, args.value, args.avoidConstraints);
         return _serviceIdentifier;
     }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    return this.bind(serviceIdentifier);
+};
+Container.prototype.unbind = function (serviceIdentifier) {
+    try {
+        this._bindingDictionary.remove(serviceIdentifier);
+    }
+    catch (e) {
+        throw new Error(ERROR_MSGS.CANNOT_UNBIND + &#x22; &#x22; + serialization_1.<span class="apidocCodeKeywordSpan">getServiceIdentifierAsString
+</span>(serviceIdentifier));
+    }
+};
+Container.prototype.unbindAll = function () {
+    this._bindingDictionary = new lookup_1.Lookup();
+};
+Container.prototype.isBound = function (serviceIdentifier) {
+    return this._bindingDictionary.hasKey(serviceIdentifier);
+...</pre></li>
     </ul>
 
 
@@ -1793,7 +1314,24 @@ args.key, args.value, args.avoidConstraints);
     return s4() + s4() + &#x22;-&#x22; + s4() + &#x22;-&#x22; + s4() + &#x22;-&#x22; +
         s4() + &#x22;-&#x22; + s4() + s4() + s4();
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+define([&#x22;require&#x22;, &#x22;exports&#x22;, &#x22;../utils/guid&#x22;, &#x22;../constants/literal_types&#x22;], function (
+require, exports, guid_1, literal_types_1) {
+&#x22;use strict&#x22;;
+Object.defineProperty(exports, &#x22;__esModule&#x22;, { value: true });
+var Binding = (function () {
+    function Binding(serviceIdentifier, defaultScope) {
+        this.guid = guid_1.<span class="apidocCodeKeywordSpan">guid</span>();
+        this.activated = false;
+        this.serviceIdentifier = serviceIdentifier;
+        this.scope = defaultScope;
+        this.type = literal_types_1.BindingTypeEnum.Invalid;
+        this.constraint = function (request) { return true; };
+        this.implementationType = null;
+        this.cache = null;
+...</pre></li>
     </ul>
 
 
@@ -1903,7 +1441,23 @@ args.key, args.value, args.avoidConstraints);
     constraint.metaData = new metadata_1.Metadata(key, value);
     return constraint;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    this._binding = binding;
+}
+BindingWhenSyntax.prototype.when = function (constraint) {
+    this._binding.constraint = constraint;
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenTargetNamed = function (name) {
+    this._binding.constraint = constraint_helpers_1.<span class="apidocCodeKeywordSpan">namedConstraint</span>(name);
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenTargetIsDefault = function () {
+    this._binding.constraint = function (request) {
+        var targetIsDefault = (request.target !== null) &#x26;&#x26;
+            (request.target.isNamed() === false) &#x26;&#x26;
+            (request.target.isTagged() === false);
+...</pre></li>
     </ul>
 
 
@@ -1968,7 +1522,23 @@ args.key, args.value, args.avoidConstraints);
     constraint.metaData = new metadata_1.Metadata(key, value);
     return constraint;
 }; }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+            (request.target.isNamed() === false) &#x26;&#x26;
+            (request.target.isTagged() === false);
+        return targetIsDefault;
+    };
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenTargetTagged = function (tag, value) {
+    this._binding.constraint = constraint_helpers_1.<span class="apidocCodeKeywordSpan">taggedConstraint</span>(tag)(value);
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenInjectedInto = function (parent) {
+    this._binding.constraint = function (request) {
+        return constraint_helpers_1.typeConstraint(parent)(request.parentRequest);
+    };
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+...</pre></li>
     </ul>
 
 
@@ -2007,7 +1577,24 @@ args.key, args.value, args.avoidConstraints);
         return false;
     }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    this._binding.constraint = function (request) {
+        return constraint_helpers_1.taggedConstraint(tag)(value)(request.parentRequest);
+    };
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenAnyAncestorIs = function (ancestor) {
+    this._binding.constraint = function (request) {
+        return constraint_helpers_1.<span class="apidocCodeKeywordSpan">traverseAncerstors</span>(request, constraint_helpers_1.
+typeConstraint(ancestor));
+    };
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenNoAncestorIs = function (ancestor) {
+    this._binding.constraint = function (request) {
+        return !constraint_helpers_1.traverseAncerstors(request, constraint_helpers_1.typeConstraint(ancestor));
+    };
+...</pre></li>
     </ul>
 
 
@@ -2034,7 +1621,23 @@ args.key, args.value, args.avoidConstraints);
     }
     return false;
 }; }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+};
+BindingWhenSyntax.prototype.whenTargetTagged = function (tag, value) {
+    this._binding.constraint = constraint_helpers_1.taggedConstraint(tag)(value);
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenInjectedInto = function (parent) {
+    this._binding.constraint = function (request) {
+        return constraint_helpers_1.<span class="apidocCodeKeywordSpan">typeConstraint</span>(parent)(request.parentRequest);
+    };
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenParentNamed = function (name) {
+    this._binding.constraint = function (request) {
+        return constraint_helpers_1.namedConstraint(name)(request.parentRequest);
+    };
+...</pre></li>
     </ul>
 
 
@@ -2054,6 +1657,60 @@ args.key, args.value, args.avoidConstraints);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2134,39 +1791,6 @@ args.key, args.value, args.avoidConstraints);
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.merge" id="apidoc.module.inversify.Container.merge">module inversify.Container.merge</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.merge.merge" id="apidoc.element.inversify.Container.merge.merge">
-        function <span class="apidocSignatureSpan">inversify.Container.</span>merge
-        <span class="apidocSignatureSpan">(container1, container2)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">merge = function (container1, container2) {
-    var container = new Container();
-    var bindingDictionary = planner_1.getBindingDictionary(container);
-    var bindingDictionary1 = planner_1.getBindingDictionary(container1);
-    var bindingDictionary2 = planner_1.getBindingDictionary(container2);
-    function copyDictionary(origing, destination) {
-        origing.traverse(function (key, value) {
-            value.forEach(function (binding) {
-                destination.add(binding.serviceIdentifier, binding.clone());
-            });
-        });
-    }
-    copyDictionary(bindingDictionary1, bindingDictionary);
-    copyDictionary(bindingDictionary2, bindingDictionary);
-    return container;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.inversify.Container.prototype" id="apidoc.module.inversify.Container.prototype">module inversify.Container.prototype</a></h1>
 
 
@@ -2199,7 +1823,24 @@ args.key, args.value, args.avoidConstraints);
     }
     return result;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        return curr(prev);
+    }, initial);
+};
+Container.prototype.applyCustomMetadataReader = function (metadataReader) {
+    this._metadataReader = metadataReader;
+};
+Container.prototype.get = function (serviceIdentifier) {
+    return this.<span class="apidocCodeKeywordSpan">_get</span>(false, false, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier
+);
+};
+Container.prototype.getTagged = function (serviceIdentifier, key, value) {
+    return this._get(false, false, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier, key, value);
+};
+Container.prototype.getNamed = function (serviceIdentifier, named) {
+    return this.getTagged(serviceIdentifier, METADATA_KEY.NAMED_TAG, named);
+};
+...</pre></li>
     </ul>
 
 
@@ -2221,7 +1862,23 @@ args.key, args.value, args.avoidConstraints);
         return result;
     };
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    return child;
+};
+Container.prototype.applyMiddleware = function () {
+    var middlewares = [];
+    for (var _i = 0; _i &#x3c; arguments.length; _i++) {
+        middlewares[_i] = arguments[_i];
+    }
+    var initial = (this._middleware) ? this._middleware : this.<span class="apidocCodeKeywordSpan">_planAndResolve</span>();
+    this._middleware = middlewares.reduce(function (prev, curr) {
+        return curr(prev);
+    }, initial);
+};
+Container.prototype.applyCustomMetadataReader = function (metadataReader) {
+    this._metadataReader = metadataReader;
+};
+...</pre></li>
     </ul>
 
 
@@ -2277,7 +1934,23 @@ args.key, args.value, args.avoidConstraints);
     this._bindingDictionary.add(serviceIdentifier, binding);
     return new binding_to_syntax_1.BindingToSyntax(binding);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        var bindingToSyntax = _this.bind.call(_this, serviceIdentifier);
+        setModuleId(bindingToSyntax, moduleId);
+        return bindingToSyntax;
+    };
+};
+var getUnbindFunction = function (moduleId) {
+    return function (serviceIdentifier) {
+        var _unbind = _this.unbind.<span class="apidocCodeKeywordSpan">bind</span>(_this);
+        _unbind(serviceIdentifier);
+    };
+};
+var getIsboundFunction = function (moduleId) {
+    return function (serviceIdentifier) {
+        var _isBound = _this.isBound.bind(_this);
+        return _isBound(serviceIdentifier);
+...</pre></li>
     </ul>
 
 
@@ -2309,7 +1982,23 @@ args.key, args.value, args.avoidConstraints);
     <li>description and source-code<pre class="apidocCodePre">get = function (serviceIdentifier) {
     return this._get(false, false, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+Container.prototype.isBound = function (serviceIdentifier) {
+    return this._bindingDictionary.hasKey(serviceIdentifier);
+};
+Container.prototype.isBoundNamed = function (serviceIdentifier, named) {
+    return this.isBoundTagged(serviceIdentifier, METADATA_KEY.NAMED_TAG, named);
+};
+Container.prototype.isBoundTagged = function (serviceIdentifier, key, value) {
+    var bindings = this._bindingDictionary.<span class="apidocCodeKeywordSpan">get</span>(serviceIdentifier);
+    var request = planner_1.createMockRequest(this, serviceIdentifier, key, value);
+    return bindings.some(function (b) { return b.constraint(request); });
+};
+Container.prototype.snapshot = function () {
+    this._snapshots.push(container_snapshot_1.ContainerSnapshot.of(this._bindingDictionary.clone(), this._middleware));
+};
+Container.prototype.restore = function () {
+...</pre></li>
     </ul>
 
 
@@ -2354,7 +2043,23 @@ args.key, args.value, args.avoidConstraints);
     <li>description and source-code<pre class="apidocCodePre">getAllTagged = function (serviceIdentifier, key, value) {
     return this._get(false, true, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier, key, value);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+Container.prototype.getAll = function (serviceIdentifier) {
+    return this._get(true, true, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier);
+};
+Container.prototype.getAllTagged = function (serviceIdentifier, key, value) {
+    return this._get(false, true, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier, key, value);
+};
+Container.prototype.getAllNamed = function (serviceIdentifier, named) {
+    return this.<span class="apidocCodeKeywordSpan">getAllTagged</span>(serviceIdentifier, METADATA_KEY.NAMED_TAG, named);
+};
+Container.prototype.resolve = function (constructorFunction) {
+    var tempContainer = new Container();
+    tempContainer.bind(constructorFunction).toSelf();
+    tempContainer.parent = this;
+    return tempContainer.get(constructorFunction);
+};
+...</pre></li>
     </ul>
 
 
@@ -2384,7 +2089,23 @@ args.key, args.value, args.avoidConstraints);
     <li>description and source-code<pre class="apidocCodePre">getTagged = function (serviceIdentifier, key, value) {
     return this._get(false, false, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier, key, value);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+Container.prototype.get = function (serviceIdentifier) {
+    return this._get(false, false, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier);
+};
+Container.prototype.getTagged = function (serviceIdentifier, key, value) {
+    return this._get(false, false, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier, key, value);
+};
+Container.prototype.getNamed = function (serviceIdentifier, named) {
+    return this.<span class="apidocCodeKeywordSpan">getTagged</span>(serviceIdentifier, METADATA_KEY.NAMED_TAG, named);
+};
+Container.prototype.getAll = function (serviceIdentifier) {
+    return this._get(true, true, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier);
+};
+Container.prototype.getAllTagged = function (serviceIdentifier, key, value) {
+    return this._get(false, true, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier, key, value);
+};
+...</pre></li>
     </ul>
 
 
@@ -2431,7 +2152,23 @@ args.key, args.value, args.avoidConstraints);
     var request = planner_1.createMockRequest(this, serviceIdentifier, key, value);
     return bindings.some(function (b) { return b.constraint(request); });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+Container.prototype.unbindAll = function () {
+    this._bindingDictionary = new lookup_1.Lookup();
+};
+Container.prototype.isBound = function (serviceIdentifier) {
+    return this._bindingDictionary.hasKey(serviceIdentifier);
+};
+Container.prototype.isBoundNamed = function (serviceIdentifier, named) {
+    return this.<span class="apidocCodeKeywordSpan">isBoundTagged</span>(serviceIdentifier, METADATA_KEY.NAMED_TAG, named);
+};
+Container.prototype.isBoundTagged = function (serviceIdentifier, key, value) {
+    var bindings = this._bindingDictionary.get(serviceIdentifier);
+    var request = planner_1.createMockRequest(this, serviceIdentifier, key, value);
+    return bindings.some(function (b) { return b.constraint(request); });
+};
+Container.prototype.snapshot = function () {
+...</pre></li>
     </ul>
 
 
@@ -2520,7 +2257,24 @@ args.key, args.value, args.avoidConstraints);
     tempContainer.parent = this;
     return tempContainer.get(constructorFunction);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+            return result;
+        };
+        Container.prototype._planAndResolve = function () {
+            var _this = this;
+            return function (args) {
+                var context = planner_1.plan(_this._metadataReader, _this, args.isMultiInject, args.targetType, args.serviceIdentifier
+, args.key, args.value, args.avoidConstraints);
+                context = args.contextInterceptor(context);
+                var result = resolver_1.<span class="apidocCodeKeywordSpan">resolve</span>(context);
+                return result;
+            };
+        };
+        return Container;
+    }());
+    exports.Container = Container;
+});
+...</pre></li>
     </ul>
 
 
@@ -2575,7 +2329,23 @@ args.key, args.value, args.avoidConstraints);
         throw new Error(ERROR_MSGS.CANNOT_UNBIND + &#x22; &#x22; + serialization_1.getServiceIdentifierAsString(serviceIdentifier));
     }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    var defaultScope = literal_types_1.BindingScopeEnum.Transient;
+    defaultScope = (this.options.defaultScope === defaultScope) ? defaultScope : literal_types_1.BindingScopeEnum.Singleton;
+    var binding = new binding_1.Binding(serviceIdentifier, defaultScope);
+    this._bindingDictionary.add(serviceIdentifier, binding);
+    return new binding_to_syntax_1.BindingToSyntax(binding);
+};
+Container.prototype.rebind = function (serviceIdentifier) {
+    this.<span class="apidocCodeKeywordSpan">unbind</span>(serviceIdentifier);
+    return this.bind(serviceIdentifier);
+};
+Container.prototype.unbind = function (serviceIdentifier) {
+    try {
+        this._bindingDictionary.remove(serviceIdentifier);
+    }
+    catch (e) {
+...</pre></li>
     </ul>
 
 
@@ -2623,558 +2393,471 @@ args.key, args.value, args.avoidConstraints);
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype._get" id="apidoc.module.inversify.Container.prototype._get">module inversify.Container.prototype._get</a></h1>
+<h1><a href="#apidoc.module.inversify.binding" id="apidoc.module.inversify.binding">module inversify.binding</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.inversify.Container.prototype._get._get" id="apidoc.element.inversify.Container.prototype._get._get">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>_get
-        <span class="apidocSignatureSpan">(avoidConstraints, isMultiInject, targetType, serviceIdentifier, key, value)</span>
+        <a href="#apidoc.element.inversify.binding.Binding" id="apidoc.element.inversify.binding.Binding">
+        function <span class="apidocSignatureSpan">inversify.binding.</span>Binding
+        <span class="apidocSignatureSpan">(serviceIdentifier, defaultScope)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">_get = function (avoidConstraints, isMultiInject, targetType, serviceIdentifier, key, value) {
-    var result = null;
-    var defaultArgs = {
-        avoidConstraints: avoidConstraints,
-        contextInterceptor: function (context) { return context; },
-        isMultiInject: isMultiInject,
-        key: key,
-        serviceIdentifier: serviceIdentifier,
-        targetType: targetType,
-        value: value
-    };
-    if (this._middleware) {
-        result = this._middleware(defaultArgs);
-        if (result === undefined || result === null) {
-            throw new Error(ERROR_MSGS.INVALID_MIDDLEWARE_RETURN);
-        }
-    }
-    else {
-        result = this._planAndResolve()(defaultArgs);
-    }
-    return result;
+    <li>description and source-code<pre class="apidocCodePre">function Binding(serviceIdentifier, defaultScope) {
+    this.guid = guid_1.guid();
+    this.activated = false;
+    this.serviceIdentifier = serviceIdentifier;
+    this.scope = defaultScope;
+    this.type = literal_types_1.BindingTypeEnum.Invalid;
+    this.constraint = function (request) { return true; };
+    this.implementationType = null;
+    this.cache = null;
+    this.factory = null;
+    this.provider = null;
+    this.onActivation = null;
+    this.dynamicValue = null;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype._planAndResolve" id="apidoc.module.inversify.Container.prototype._planAndResolve">module inversify.Container.prototype._planAndResolve</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype._planAndResolve._planAndResolve" id="apidoc.element.inversify.Container.prototype._planAndResolve._planAndResolve">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>_planAndResolve
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">_planAndResolve = function () {
-    var _this = this;
-    return function (args) {
-        var context = planner_1.plan(_this._metadataReader, _this, args.isMultiInject, args.targetType, args.serviceIdentifier,
-args.key, args.value, args.avoidConstraints);
-        context = args.contextInterceptor(context);
-        var result = resolver_1.resolve(context);
-        return result;
-    };
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.applyCustomMetadataReader" id="apidoc.module.inversify.Container.prototype.applyCustomMetadataReader">module inversify.Container.prototype.applyCustomMetadataReader</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.applyCustomMetadataReader.applyCustomMetadataReader" id="apidoc.element.inversify.Container.prototype.applyCustomMetadataReader.applyCustomMetadataReader">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>applyCustomMetadataReader
-        <span class="apidocSignatureSpan">(metadataReader)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">applyCustomMetadataReader = function (metadataReader) {
-    this._metadataReader = metadataReader;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.applyMiddleware" id="apidoc.module.inversify.Container.prototype.applyMiddleware">module inversify.Container.prototype.applyMiddleware</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.applyMiddleware.applyMiddleware" id="apidoc.element.inversify.Container.prototype.applyMiddleware.applyMiddleware">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>applyMiddleware
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">applyMiddleware = function () {
-    var middlewares = [];
-    for (var _i = 0; _i &#x3c; arguments.length; _i++) {
-        middlewares[_i] = arguments[_i];
-    }
-    var initial = (this._middleware) ? this._middleware : this._planAndResolve();
-    this._middleware = middlewares.reduce(function (prev, curr) {
-        return curr(prev);
-    }, initial);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.bind" id="apidoc.module.inversify.Container.prototype.bind">module inversify.Container.prototype.bind</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.bind.bind" id="apidoc.element.inversify.Container.prototype.bind.bind">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>bind
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function bind() { [native code] }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.createChild" id="apidoc.module.inversify.Container.prototype.createChild">module inversify.Container.prototype.createChild</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.createChild.createChild" id="apidoc.element.inversify.Container.prototype.createChild.createChild">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>createChild
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">createChild = function () {
-    var child = new Container();
-    child.parent = this;
-    return child;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.get" id="apidoc.module.inversify.Container.prototype.get">module inversify.Container.prototype.get</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.get.get" id="apidoc.element.inversify.Container.prototype.get.get">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>get
-        <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">get = function (serviceIdentifier) {
-    return this._get(false, false, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.getAll" id="apidoc.module.inversify.Container.prototype.getAll">module inversify.Container.prototype.getAll</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.getAll.getAll" id="apidoc.element.inversify.Container.prototype.getAll.getAll">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>getAll
-        <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">getAll = function (serviceIdentifier) {
-    return this._get(true, true, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.getAllNamed" id="apidoc.module.inversify.Container.prototype.getAllNamed">module inversify.Container.prototype.getAllNamed</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.getAllNamed.getAllNamed" id="apidoc.element.inversify.Container.prototype.getAllNamed.getAllNamed">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>getAllNamed
-        <span class="apidocSignatureSpan">(serviceIdentifier, named)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">getAllNamed = function (serviceIdentifier, named) {
-    return this.getAllTagged(serviceIdentifier, METADATA_KEY.NAMED_TAG, named);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.getAllTagged" id="apidoc.module.inversify.Container.prototype.getAllTagged">module inversify.Container.prototype.getAllTagged</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.getAllTagged.getAllTagged" id="apidoc.element.inversify.Container.prototype.getAllTagged.getAllTagged">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>getAllTagged
-        <span class="apidocSignatureSpan">(serviceIdentifier, key, value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">getAllTagged = function (serviceIdentifier, key, value) {
-    return this._get(false, true, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier, key, value);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.getNamed" id="apidoc.module.inversify.Container.prototype.getNamed">module inversify.Container.prototype.getNamed</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.getNamed.getNamed" id="apidoc.element.inversify.Container.prototype.getNamed.getNamed">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>getNamed
-        <span class="apidocSignatureSpan">(serviceIdentifier, named)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">getNamed = function (serviceIdentifier, named) {
-    return this.getTagged(serviceIdentifier, METADATA_KEY.NAMED_TAG, named);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.getTagged" id="apidoc.module.inversify.Container.prototype.getTagged">module inversify.Container.prototype.getTagged</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.getTagged.getTagged" id="apidoc.element.inversify.Container.prototype.getTagged.getTagged">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>getTagged
-        <span class="apidocSignatureSpan">(serviceIdentifier, key, value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">getTagged = function (serviceIdentifier, key, value) {
-    return this._get(false, false, literal_types_1.TargetTypeEnum.Variable, serviceIdentifier, key, value);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.isBound" id="apidoc.module.inversify.Container.prototype.isBound">module inversify.Container.prototype.isBound</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.isBound.isBound" id="apidoc.element.inversify.Container.prototype.isBound.isBound">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>isBound
-        <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">isBound = function (serviceIdentifier) {
-    return this._bindingDictionary.hasKey(serviceIdentifier);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.isBoundNamed" id="apidoc.module.inversify.Container.prototype.isBoundNamed">module inversify.Container.prototype.isBoundNamed</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.isBoundNamed.isBoundNamed" id="apidoc.element.inversify.Container.prototype.isBoundNamed.isBoundNamed">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>isBoundNamed
-        <span class="apidocSignatureSpan">(serviceIdentifier, named)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">isBoundNamed = function (serviceIdentifier, named) {
-    return this.isBoundTagged(serviceIdentifier, METADATA_KEY.NAMED_TAG, named);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.isBoundTagged" id="apidoc.module.inversify.Container.prototype.isBoundTagged">module inversify.Container.prototype.isBoundTagged</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.isBoundTagged.isBoundTagged" id="apidoc.element.inversify.Container.prototype.isBoundTagged.isBoundTagged">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>isBoundTagged
-        <span class="apidocSignatureSpan">(serviceIdentifier, key, value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">isBoundTagged = function (serviceIdentifier, key, value) {
-    var bindings = this._bindingDictionary.get(serviceIdentifier);
-    var request = planner_1.createMockRequest(this, serviceIdentifier, key, value);
-    return bindings.some(function (b) { return b.constraint(request); });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.load" id="apidoc.module.inversify.Container.prototype.load">module inversify.Container.prototype.load</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.load.load" id="apidoc.element.inversify.Container.prototype.load.load">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>load
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">load = function () {
-    var _this = this;
-    var modules = [];
-    for (var _i = 0; _i &#x3c; arguments.length; _i++) {
-        modules[_i] = arguments[_i];
-    }
-    var setModuleId = function (bindingToSyntax, moduleId) {
-        bindingToSyntax._binding.moduleId = moduleId;
-    };
-    var getBindFunction = function (moduleId) {
-        return function (serviceIdentifier) {
-            var bindingToSyntax = _this.bind.call(_this, serviceIdentifier);
-            setModuleId(bindingToSyntax, moduleId);
-            return bindingToSyntax;
-        };
-    };
-    var getUnbindFunction = function (moduleId) {
-        return function (serviceIdentifier) {
-            var _unbind = _this.unbind.bind(_this);
-            _unbind(serviceIdentifier);
-        };
-    };
-    var getIsboundFunction = function (moduleId) {
-        return function (serviceIdentifier) {
-            var _isBound = _this.isBound.bind(_this);
-            return _isBound(serviceIdentifier);
-        };
-    };
-    var getRebindFunction = function (moduleId) {
-        return function (serviceIdentifier) {
-            var bindingToSyntax = _this.rebind.call(_this, serviceIdentifier);
-            setModuleId(bindingToSyntax, moduleId);
-            return bindingToSyntax;
-        };
-    };
-    modules.forEach(function (module) {
-        var bindFunction = getBindFunction(module.guid);
-        var unbindFunction = getUnbindFunction(module.guid);
-        var isboundFunction = getIsboundFunction(module.guid);
-        var rebindFunction = getRebindFunction(module.guid);
-        module.registry(bindFunction, unbindFunction, isboundFunction, rebindFunction);
-    });
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.rebind" id="apidoc.module.inversify.Container.prototype.rebind">module inversify.Container.prototype.rebind</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.rebind.rebind" id="apidoc.element.inversify.Container.prototype.rebind.rebind">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>rebind
-        <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">rebind = function (serviceIdentifier) {
-    this.unbind(serviceIdentifier);
-    return this.bind(serviceIdentifier);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.resolve" id="apidoc.module.inversify.Container.prototype.resolve">module inversify.Container.prototype.resolve</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.resolve.resolve" id="apidoc.element.inversify.Container.prototype.resolve.resolve">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>resolve
-        <span class="apidocSignatureSpan">(constructorFunction)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">resolve = function (constructorFunction) {
-    var tempContainer = new Container();
-    tempContainer.bind(constructorFunction).toSelf();
-    tempContainer.parent = this;
-    return tempContainer.get(constructorFunction);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.restore" id="apidoc.module.inversify.Container.prototype.restore">module inversify.Container.prototype.restore</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.restore.restore" id="apidoc.element.inversify.Container.prototype.restore.restore">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>restore
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">restore = function () {
-    var snapshot = this._snapshots.pop();
-    if (snapshot === undefined) {
-        throw new Error(ERROR_MSGS.NO_MORE_SNAPSHOTS_AVAILABLE);
-    }
-    this._bindingDictionary = snapshot.bindings;
-    this._middleware = snapshot.middleware;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.snapshot" id="apidoc.module.inversify.Container.prototype.snapshot">module inversify.Container.prototype.snapshot</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.snapshot.snapshot" id="apidoc.element.inversify.Container.prototype.snapshot.snapshot">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>snapshot
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">snapshot = function () {
-    this._snapshots.push(container_snapshot_1.ContainerSnapshot.of(this._bindingDictionary.clone(), this._middleware));
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.unbind" id="apidoc.module.inversify.Container.prototype.unbind">module inversify.Container.prototype.unbind</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.unbind.unbind" id="apidoc.element.inversify.Container.prototype.unbind.unbind">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>unbind
-        <span class="apidocSignatureSpan">(serviceIdentifier)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">unbind = function (serviceIdentifier) {
-    try {
-        this._bindingDictionary.remove(serviceIdentifier);
-    }
-    catch (e) {
-        throw new Error(ERROR_MSGS.CANNOT_UNBIND + &#x22; &#x22; + serialization_1.getServiceIdentifierAsString(serviceIdentifier));
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.unbindAll" id="apidoc.module.inversify.Container.prototype.unbindAll">module inversify.Container.prototype.unbindAll</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.unbindAll.unbindAll" id="apidoc.element.inversify.Container.prototype.unbindAll.unbindAll">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>unbindAll
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">unbindAll = function () {
-    this._bindingDictionary = new lookup_1.Lookup();
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.Container.prototype.unload" id="apidoc.module.inversify.Container.prototype.unload">module inversify.Container.prototype.unload</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.Container.prototype.unload.unload" id="apidoc.element.inversify.Container.prototype.unload.unload">
-        function <span class="apidocSignatureSpan">inversify.Container.prototype.</span>unload
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">unload = function () {
-    var _this = this;
-    var modules = [];
-    for (var _i = 0; _i &#x3c; arguments.length; _i++) {
-        modules[_i] = arguments[_i];
-    }
-    var conditionFactory = function (expected) { return function (item) {
-        return item.moduleId === expected;
-    }; };
-    modules.forEach(function (module) {
+    <li>example usage<pre class="apidocCodePre">...
         var condition = conditionFactory(module.guid);
         _this._bindingDictionary.removeByCondition(condition);
     });
+};
+Container.prototype.bind = function (serviceIdentifier) {
+    var defaultScope = literal_types_1.BindingScopeEnum.Transient;
+    defaultScope = (this.options.defaultScope === defaultScope) ? defaultScope : literal_types_1.BindingScopeEnum.Singleton;
+    var binding = new binding_1.<span class="apidocCodeKeywordSpan">Binding</span>(serviceIdentifier, defaultScope);
+    this._bindingDictionary.add(serviceIdentifier, binding);
+    return new binding_to_syntax_1.BindingToSyntax(binding);
+};
+Container.prototype.rebind = function (serviceIdentifier) {
+    this.unbind(serviceIdentifier);
+    return this.bind(serviceIdentifier);
+};
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.binding_in_syntax" id="apidoc.module.inversify.binding_in_syntax">module inversify.binding_in_syntax</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.binding_in_syntax.BindingInSyntax" id="apidoc.element.inversify.binding_in_syntax.BindingInSyntax">
+        function <span class="apidocSignatureSpan">inversify.binding_in_syntax.</span>BindingInSyntax
+        <span class="apidocSignatureSpan">(binding)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function BindingInSyntax(binding) {
+    this._binding = binding;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&#x22;use strict&#x22;;
+Object.defineProperty(exports, &#x22;__esModule&#x22;, { value: true });
+var BindingInWhenOnSyntax = (function () {
+    function BindingInWhenOnSyntax(binding) {
+        this._binding = binding;
+        this._bindingWhenSyntax = new binding_when_syntax_1.BindingWhenSyntax(this._binding);
+        this._bindingOnSyntax = new binding_on_syntax_1.BindingOnSyntax(this._binding);
+        this._bindingInSyntax = new binding_in_syntax_1.<span class="apidocCodeKeywordSpan">BindingInSyntax</span>(binding);
+    }
+    BindingInWhenOnSyntax.prototype.inSingletonScope = function () {
+        return this._bindingInSyntax.inSingletonScope();
+    };
+    BindingInWhenOnSyntax.prototype.inTransientScope = function () {
+        return this._bindingInSyntax.inTransientScope();
+    };
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.binding_in_when_on_syntax" id="apidoc.module.inversify.binding_in_when_on_syntax">module inversify.binding_in_when_on_syntax</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.binding_in_when_on_syntax.BindingInWhenOnSyntax" id="apidoc.element.inversify.binding_in_when_on_syntax.BindingInWhenOnSyntax">
+        function <span class="apidocSignatureSpan">inversify.binding_in_when_on_syntax.</span>BindingInWhenOnSyntax
+        <span class="apidocSignatureSpan">(binding)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function BindingInWhenOnSyntax(binding) {
+    this._binding = binding;
+    this._bindingWhenSyntax = new binding_when_syntax_1.BindingWhenSyntax(this._binding);
+    this._bindingOnSyntax = new binding_on_syntax_1.BindingOnSyntax(this._binding);
+    this._bindingInSyntax = new binding_in_syntax_1.BindingInSyntax(binding);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    var BindingToSyntax = (function () {
+function BindingToSyntax(binding) {
+    this._binding = binding;
+}
+BindingToSyntax.prototype.to = function (constructor) {
+    this._binding.type = literal_types_1.BindingTypeEnum.Instance;
+    this._binding.implementationType = constructor;
+    return new binding_in_when_on_syntax_1.<span class="apidocCodeKeywordSpan">BindingInWhenOnSyntax</span>(this._binding);
+};
+BindingToSyntax.prototype.toSelf = function () {
+    if (typeof this._binding.serviceIdentifier !== &#x22;function&#x22;) {
+        throw new Error(&#x22;&#x22; + ERROR_MSGS.INVALID_TO_SELF_VALUE);
+    }
+    var self = this._binding.serviceIdentifier;
+    return this.to(self);
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.binding_on_syntax" id="apidoc.module.inversify.binding_on_syntax">module inversify.binding_on_syntax</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.binding_on_syntax.BindingOnSyntax" id="apidoc.element.inversify.binding_on_syntax.BindingOnSyntax">
+        function <span class="apidocSignatureSpan">inversify.binding_on_syntax.</span>BindingOnSyntax
+        <span class="apidocSignatureSpan">(binding)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function BindingOnSyntax(binding) {
+    this._binding = binding;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+define([&#x22;require&#x22;, &#x22;exports&#x22;, &#x22;./binding_in_syntax&#x22;, &#x22;./binding_when_syntax&#x22;, &#x22;./binding_on_syntax
+&#x22;], function (require, exports, binding_in_syntax_1, binding_when_syntax_1, binding_on_syntax_1) {
+&#x22;use strict&#x22;;
+Object.defineProperty(exports, &#x22;__esModule&#x22;, { value: true });
+var BindingInWhenOnSyntax = (function () {
+    function BindingInWhenOnSyntax(binding) {
+        this._binding = binding;
+        this._bindingWhenSyntax = new binding_when_syntax_1.BindingWhenSyntax(this._binding);
+        this._bindingOnSyntax = new binding_on_syntax_1.<span class="apidocCodeKeywordSpan">BindingOnSyntax</span>(this._binding
+);
+        this._bindingInSyntax = new binding_in_syntax_1.BindingInSyntax(binding);
+    }
+    BindingInWhenOnSyntax.prototype.inSingletonScope = function () {
+        return this._bindingInSyntax.inSingletonScope();
+    };
+    BindingInWhenOnSyntax.prototype.inTransientScope = function () {
+        return this._bindingInSyntax.inTransientScope();
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.binding_to_syntax" id="apidoc.module.inversify.binding_to_syntax">module inversify.binding_to_syntax</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.binding_to_syntax.BindingToSyntax" id="apidoc.element.inversify.binding_to_syntax.BindingToSyntax">
+        function <span class="apidocSignatureSpan">inversify.binding_to_syntax.</span>BindingToSyntax
+        <span class="apidocSignatureSpan">(binding)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function BindingToSyntax(binding) {
+    this._binding = binding;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    });
+};
+Container.prototype.bind = function (serviceIdentifier) {
+    var defaultScope = literal_types_1.BindingScopeEnum.Transient;
+    defaultScope = (this.options.defaultScope === defaultScope) ? defaultScope : literal_types_1.BindingScopeEnum.Singleton;
+    var binding = new binding_1.Binding(serviceIdentifier, defaultScope);
+    this._bindingDictionary.add(serviceIdentifier, binding);
+    return new binding_to_syntax_1.<span class="apidocCodeKeywordSpan">BindingToSyntax</span>(binding);
+};
+Container.prototype.rebind = function (serviceIdentifier) {
+    this.unbind(serviceIdentifier);
+    return this.bind(serviceIdentifier);
+};
+Container.prototype.unbind = function (serviceIdentifier) {
+    try {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.binding_when_on_syntax" id="apidoc.module.inversify.binding_when_on_syntax">module inversify.binding_when_on_syntax</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.binding_when_on_syntax.BindingWhenOnSyntax" id="apidoc.element.inversify.binding_when_on_syntax.BindingWhenOnSyntax">
+        function <span class="apidocSignatureSpan">inversify.binding_when_on_syntax.</span>BindingWhenOnSyntax
+        <span class="apidocSignatureSpan">(binding)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function BindingWhenOnSyntax(binding) {
+    this._binding = binding;
+    this._bindingWhenSyntax = new binding_when_syntax_1.BindingWhenSyntax(this._binding);
+    this._bindingOnSyntax = new binding_on_syntax_1.BindingOnSyntax(this._binding);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+Object.defineProperty(exports, &#x22;__esModule&#x22;, { value: true });
+var BindingInSyntax = (function () {
+    function BindingInSyntax(binding) {
+        this._binding = binding;
+    }
+    BindingInSyntax.prototype.inSingletonScope = function () {
+        this._binding.scope = literal_types_1.BindingScopeEnum.Singleton;
+        return new binding_when_on_syntax_1.<span class="apidocCodeKeywordSpan">BindingWhenOnSyntax</span>(this._binding);
+    };
+    BindingInSyntax.prototype.inTransientScope = function () {
+        this._binding.scope = literal_types_1.BindingScopeEnum.Transient;
+        return new binding_when_on_syntax_1.BindingWhenOnSyntax(this._binding);
+    };
+    return BindingInSyntax;
+}());
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.binding_when_syntax" id="apidoc.module.inversify.binding_when_syntax">module inversify.binding_when_syntax</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.binding_when_syntax.BindingWhenSyntax" id="apidoc.element.inversify.binding_when_syntax.BindingWhenSyntax">
+        function <span class="apidocSignatureSpan">inversify.binding_when_syntax.</span>BindingWhenSyntax
+        <span class="apidocSignatureSpan">(binding)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function BindingWhenSyntax(binding) {
+    this._binding = binding;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+define([&#x22;require&#x22;, &#x22;exports&#x22;, &#x22;./binding_in_syntax&#x22;, &#x22;./binding_when_syntax&#x22;, &#x22;./binding_on_syntax
+&#x22;], function (require, exports, binding_in_syntax_1, binding_when_syntax_1, binding_on_syntax_1) {
+&#x22;use strict&#x22;;
+Object.defineProperty(exports, &#x22;__esModule&#x22;, { value: true });
+var BindingInWhenOnSyntax = (function () {
+    function BindingInWhenOnSyntax(binding) {
+        this._binding = binding;
+        this._bindingWhenSyntax = new binding_when_syntax_1.<span class="apidocCodeKeywordSpan">BindingWhenSyntax</span>(this._binding
+);
+        this._bindingOnSyntax = new binding_on_syntax_1.BindingOnSyntax(this._binding);
+        this._bindingInSyntax = new binding_in_syntax_1.BindingInSyntax(binding);
+    }
+    BindingInWhenOnSyntax.prototype.inSingletonScope = function () {
+        return this._bindingInSyntax.inSingletonScope();
+    };
+    BindingInWhenOnSyntax.prototype.inTransientScope = function () {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.constraint_helpers" id="apidoc.module.inversify.constraint_helpers">module inversify.constraint_helpers</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.constraint_helpers.namedConstraint" id="apidoc.element.inversify.constraint_helpers.namedConstraint">
+        function <span class="apidocSignatureSpan">inversify.constraint_helpers.</span>namedConstraint
+        <span class="apidocSignatureSpan">(value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">namedConstraint = function (value) {
+    var constraint = function (request) {
+        return request !== null &#x26;&#x26; request.target !== null &#x26;&#x26; request.target.matchesTag(key)(value);
+    };
+    constraint.metaData = new metadata_1.Metadata(key, value);
+    return constraint;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    this._binding = binding;
+}
+BindingWhenSyntax.prototype.when = function (constraint) {
+    this._binding.constraint = constraint;
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenTargetNamed = function (name) {
+    this._binding.constraint = constraint_helpers_1.<span class="apidocCodeKeywordSpan">namedConstraint</span>(name);
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenTargetIsDefault = function () {
+    this._binding.constraint = function (request) {
+        var targetIsDefault = (request.target !== null) &#x26;&#x26;
+            (request.target.isNamed() === false) &#x26;&#x26;
+            (request.target.isTagged() === false);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.constraint_helpers.taggedConstraint" id="apidoc.element.inversify.constraint_helpers.taggedConstraint">
+        function <span class="apidocSignatureSpan">inversify.constraint_helpers.</span>taggedConstraint
+        <span class="apidocSignatureSpan">(key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">taggedConstraint = function (key) { return function (value) {
+    var constraint = function (request) {
+        return request !== null &#x26;&#x26; request.target !== null &#x26;&#x26; request.target.matchesTag(key)(value);
+    };
+    constraint.metaData = new metadata_1.Metadata(key, value);
+    return constraint;
+}; }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+            (request.target.isNamed() === false) &#x26;&#x26;
+            (request.target.isTagged() === false);
+        return targetIsDefault;
+    };
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenTargetTagged = function (tag, value) {
+    this._binding.constraint = constraint_helpers_1.<span class="apidocCodeKeywordSpan">taggedConstraint</span>(tag)(value);
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenInjectedInto = function (parent) {
+    this._binding.constraint = function (request) {
+        return constraint_helpers_1.typeConstraint(parent)(request.parentRequest);
+    };
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.constraint_helpers.traverseAncerstors" id="apidoc.element.inversify.constraint_helpers.traverseAncerstors">
+        function <span class="apidocSignatureSpan">inversify.constraint_helpers.</span>traverseAncerstors
+        <span class="apidocSignatureSpan">(request, constraint)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">traverseAncerstors = function (request, constraint) {
+    var parent = request.parentRequest;
+    if (parent !== null) {
+        return constraint(parent) ? true : traverseAncerstors(parent, constraint);
+    }
+    else {
+        return false;
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    this._binding.constraint = function (request) {
+        return constraint_helpers_1.taggedConstraint(tag)(value)(request.parentRequest);
+    };
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenAnyAncestorIs = function (ancestor) {
+    this._binding.constraint = function (request) {
+        return constraint_helpers_1.<span class="apidocCodeKeywordSpan">traverseAncerstors</span>(request, constraint_helpers_1.
+typeConstraint(ancestor));
+    };
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenNoAncestorIs = function (ancestor) {
+    this._binding.constraint = function (request) {
+        return !constraint_helpers_1.traverseAncerstors(request, constraint_helpers_1.typeConstraint(ancestor));
+    };
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.constraint_helpers.typeConstraint" id="apidoc.element.inversify.constraint_helpers.typeConstraint">
+        function <span class="apidocSignatureSpan">inversify.constraint_helpers.</span>typeConstraint
+        <span class="apidocSignatureSpan">(type)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">typeConstraint = function (type) { return function (request) {
+    var binding = null;
+    if (request !== null) {
+        binding = request.bindings[0];
+        if (typeof type === &#x22;string&#x22;) {
+            var serviceIdentifier = binding.serviceIdentifier;
+            return serviceIdentifier === type;
+        }
+        else {
+            var constructor = request.bindings[0].implementationType;
+            return type === constructor;
+        }
+    }
+    return false;
+}; }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+};
+BindingWhenSyntax.prototype.whenTargetTagged = function (tag, value) {
+    this._binding.constraint = constraint_helpers_1.taggedConstraint(tag)(value);
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenInjectedInto = function (parent) {
+    this._binding.constraint = function (request) {
+        return constraint_helpers_1.<span class="apidocCodeKeywordSpan">typeConstraint</span>(parent)(request.parentRequest);
+    };
+    return new binding_on_syntax_1.BindingOnSyntax(this._binding);
+};
+BindingWhenSyntax.prototype.whenParentNamed = function (name) {
+    this._binding.constraint = function (request) {
+        return constraint_helpers_1.namedConstraint(name)(request.parentRequest);
+    };
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.container" id="apidoc.module.inversify.container">module inversify.container</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.container.Container" id="apidoc.element.inversify.container.Container">
+        function <span class="apidocSignatureSpan">inversify.container.</span>Container
+        <span class="apidocSignatureSpan">(containerOptions)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Container(containerOptions) {
+    if (containerOptions !== undefined) {
+        if (typeof containerOptions !== &#x22;object&#x22;) {
+            throw new Error(&#x22;&#x22; + ERROR_MSGS.CONTAINER_OPTIONS_MUST_BE_AN_OBJECT);
+        }
+        else if (containerOptions.defaultScope === undefined) {
+            throw new Error(&#x22;&#x22; + ERROR_MSGS.CONTAINER_OPTIONS_INVALID_DEFAULT_SCOPE);
+        }
+        else if (containerOptions.defaultScope !== literal_types_1.BindingScopeEnum.Singleton &#x26;&#x26;
+            containerOptions.defaultScope !== literal_types_1.BindingScopeEnum.Transient) {
+            throw new Error(&#x22;&#x22; + ERROR_MSGS.CONTAINER_OPTIONS_INVALID_DEFAULT_SCOPE);
+        }
+        this.options = {
+            defaultScope: containerOptions.defaultScope
+        };
+    }
+    else {
+        this.options = {
+            defaultScope: literal_types_1.BindingScopeEnum.Transient
+        };
+    }
+    this.guid = guid_1.guid();
+    this._bindingDictionary = new lookup_1.Lookup();
+    this._snapshots = [];
+    this._middleware = null;
+    this.parent = null;
+    this._metadataReader = new metadata_reader_1.MetadataReader();
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3183,12 +2866,12 @@ args.key, args.value, args.avoidConstraints);
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.ContainerModule" id="apidoc.module.inversify.ContainerModule">module inversify.ContainerModule</a></h1>
+<h1><a href="#apidoc.module.inversify.container_module" id="apidoc.module.inversify.container_module">module inversify.container_module</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.inversify.ContainerModule.ContainerModule" id="apidoc.element.inversify.ContainerModule.ContainerModule">
-        function <span class="apidocSignatureSpan">inversify.</span>ContainerModule
+        <a href="#apidoc.element.inversify.container_module.ContainerModule" id="apidoc.element.inversify.container_module.ContainerModule">
+        function <span class="apidocSignatureSpan">inversify.container_module.</span>ContainerModule
         <span class="apidocSignatureSpan">(registry)</span>
         </a>
     </h2>
@@ -3204,12 +2887,69 @@ args.key, args.value, args.avoidConstraints);
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.decorate" id="apidoc.module.inversify.decorate">module inversify.decorate</a></h1>
+<h1><a href="#apidoc.module.inversify.container_snapshot" id="apidoc.module.inversify.container_snapshot">module inversify.container_snapshot</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.inversify.decorate.decorate" id="apidoc.element.inversify.decorate.decorate">
-        function <span class="apidocSignatureSpan">inversify.</span>decorate
+        <a href="#apidoc.element.inversify.container_snapshot.ContainerSnapshot" id="apidoc.element.inversify.container_snapshot.ContainerSnapshot">
+        function <span class="apidocSignatureSpan">inversify.container_snapshot.</span>ContainerSnapshot
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ContainerSnapshot() {
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.context" id="apidoc.module.inversify.context">module inversify.context</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.context.Context" id="apidoc.element.inversify.context.Context">
+        function <span class="apidocSignatureSpan">inversify.context.</span>Context
+        <span class="apidocSignatureSpan">(container)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Context(container) {
+    this.guid = guid_1.guid();
+    this.container = container;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    else if (container.parent !== null) {
+        bindings = getBindings(container.parent, serviceIdentifier);
+    }
+    return bindings;
+}
+function plan(metadataReader, container, isMultiInject, targetType, serviceIdentifier, key, value, avoidConstraints) {
+    if (avoidConstraints === void 0) { avoidConstraints = false; }
+    var context = new context_1.<span class="apidocCodeKeywordSpan">Context</span>(container);
+    var target = _createTarget(isMultiInject, targetType, serviceIdentifier, &#x22;&#x22;, key, value);
+    _createSubRequests(metadataReader, avoidConstraints, serviceIdentifier, context, null, target);
+    return context;
+}
+exports.plan = plan;
+function createMockRequest(container, serviceIdentifier, key, value) {
+    var target = new target_1.Target(literal_types_1.TargetTypeEnum.Variable, &#x22;&#x22;, serviceIdentifier, new metadata_1.Metadata
+(key, value));
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.decorator_utils" id="apidoc.module.inversify.decorator_utils">module inversify.decorator_utils</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.decorator_utils.decorate" id="apidoc.element.inversify.decorator_utils.decorate">
+        function <span class="apidocSignatureSpan">inversify.decorator_utils.</span>decorate
         <span class="apidocSignatureSpan">(decorator, target, parameterIndex)</span>
         </a>
     </h2>
@@ -3222,37 +2962,86 @@ args.key, args.value, args.avoidConstraints);
         _decorate([decorator], target);
     }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        }
+    }
+    paramOrPropertyMetadata.push(metadata);
+    paramsOrPropertiesMetadata[key] = paramOrPropertyMetadata;
+    Reflect.defineMetadata(metadataKey, paramsOrPropertiesMetadata, annotationTarget);
+}
+function _decorate(decorators, target) {
+    Reflect.<span class="apidocCodeKeywordSpan">decorate</span>(decorators, target);
+}
+function _param(paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); };
+}
+function decorate(decorator, target, parameterIndex) {
+    if (typeof parameterIndex === &#x22;number&#x22;) {
+        _decorate([_param(parameterIndex, decorator)], target);
+...</pre></li>
     </ul>
 
 
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.getServiceIdentifierAsString" id="apidoc.module.inversify.getServiceIdentifierAsString">module inversify.getServiceIdentifierAsString</a></h1>
-
 
     <h2>
-        <a href="#apidoc.element.inversify.getServiceIdentifierAsString.getServiceIdentifierAsString" id="apidoc.element.inversify.getServiceIdentifierAsString.getServiceIdentifierAsString">
-        function <span class="apidocSignatureSpan">inversify.</span>getServiceIdentifierAsString
-        <span class="apidocSignatureSpan">(serviceIdentifier)</span>
+        <a href="#apidoc.element.inversify.decorator_utils.tagParameter" id="apidoc.element.inversify.decorator_utils.tagParameter">
+        function <span class="apidocSignatureSpan">inversify.decorator_utils.</span>tagParameter
+        <span class="apidocSignatureSpan">(annotationTarget, propertyName, parameterIndex, metadata)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getServiceIdentifierAsString(serviceIdentifier) {
-    if (typeof serviceIdentifier === &#x22;function&#x22;) {
-        var _serviceIdentifier = serviceIdentifier;
-        return _serviceIdentifier.name;
-    }
-    else if (typeof serviceIdentifier === &#x22;symbol&#x22;) {
-        return serviceIdentifier.toString();
-    }
-    else {
-        var _serviceIdentifier = serviceIdentifier;
-        return _serviceIdentifier;
-    }
+    <li>description and source-code<pre class="apidocCodePre">function tagParameter(annotationTarget, propertyName, parameterIndex, metadata) {
+    var metadataKey = METADATA_KEY.TAGGED;
+    _tagParameterOrProperty(metadataKey, annotationTarget, propertyName, metadata, parameterIndex);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+define([&#x22;require&#x22;, &#x22;exports&#x22;, &#x22;../planning/metadata&#x22;, &#x22;./decorator_utils&#x22;, &#x22;../constants
+/metadata_keys&#x22;], function (require, exports, metadata_1, decorator_utils_1, METADATA_KEY) {
+&#x22;use strict&#x22;;
+Object.defineProperty(exports, &#x22;__esModule&#x22;, { value: true });
+function inject(serviceIdentifier) {
+    return function (target, targetKey, index) {
+        var metadata = new metadata_1.Metadata(METADATA_KEY.INJECT_TAG, serviceIdentifier);
+        if (typeof index === &#x22;number&#x22;) {
+            decorator_utils_1.<span class="apidocCodeKeywordSpan">tagParameter</span>(target, targetKey, index, metadata);
+        }
+        else {
+            decorator_utils_1.tagProperty(target, targetKey, metadata);
+        }
+    };
+}
+exports.inject = inject;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.decorator_utils.tagProperty" id="apidoc.element.inversify.decorator_utils.tagProperty">
+        function <span class="apidocSignatureSpan">inversify.decorator_utils.</span>tagProperty
+        <span class="apidocSignatureSpan">(annotationTarget, propertyName, metadata)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function tagProperty(annotationTarget, propertyName, metadata) {
+    var metadataKey = METADATA_KEY.TAGGED_PROP;
+    _tagParameterOrProperty(metadataKey, annotationTarget.constructor, propertyName, metadata);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    function inject(serviceIdentifier) {
+        return function (target, targetKey, index) {
+            var metadata = new metadata_1.Metadata(METADATA_KEY.INJECT_TAG, serviceIdentifier);
+            if (typeof index === &#x22;number&#x22;) {
+                decorator_utils_1.tagParameter(target, targetKey, index, metadata);
+            }
+            else {
+                decorator_utils_1.<span class="apidocCodeKeywordSpan">tagProperty</span>(target, targetKey, metadata);
+            }
+        };
+    }
+    exports.inject = inject;
+});
+...</pre></li>
     </ul>
 
 
@@ -3278,7 +3067,24 @@ args.key, args.value, args.avoidConstraints);
     return s4() + s4() + &#x22;-&#x22; + s4() + &#x22;-&#x22; + s4() + &#x22;-&#x22; +
         s4() + &#x22;-&#x22; + s4() + s4() + s4();
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+define([&#x22;require&#x22;, &#x22;exports&#x22;, &#x22;../utils/guid&#x22;, &#x22;../constants/literal_types&#x22;], function (
+require, exports, guid_1, literal_types_1) {
+&#x22;use strict&#x22;;
+Object.defineProperty(exports, &#x22;__esModule&#x22;, { value: true });
+var Binding = (function () {
+    function Binding(serviceIdentifier, defaultScope) {
+        this.guid = guid_1.<span class="apidocCodeKeywordSpan">guid</span>();
+        this.activated = false;
+        this.serviceIdentifier = serviceIdentifier;
+        this.scope = defaultScope;
+        this.type = literal_types_1.BindingTypeEnum.Invalid;
+        this.constraint = function (request) { return true; };
+        this.implementationType = null;
+        this.cache = null;
+...</pre></li>
     </ul>
 
 
@@ -3340,12 +3146,174 @@ args.key, args.value, args.avoidConstraints);
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.multiInject" id="apidoc.module.inversify.multiInject">module inversify.multiInject</a></h1>
+<h1><a href="#apidoc.module.inversify.instantiation" id="apidoc.module.inversify.instantiation">module inversify.instantiation</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.inversify.multiInject.multiInject" id="apidoc.element.inversify.multiInject.multiInject">
-        function <span class="apidocSignatureSpan">inversify.</span>multiInject
+        <a href="#apidoc.element.inversify.instantiation.resolveInstance" id="apidoc.element.inversify.instantiation.resolveInstance">
+        function <span class="apidocSignatureSpan">inversify.instantiation.</span>resolveInstance
+        <span class="apidocSignatureSpan">(constr, childRequests, resolveRequest)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function resolveInstance(constr, childRequests, resolveRequest) {
+    var result = null;
+    if (childRequests.length &#x3e; 0) {
+        var constructorInjectionsRequests = childRequests.filter(function (childRequest) {
+            return (childRequest.target !== null &#x26;&#x26; childRequest.target.type === literal_types_1.TargetTypeEnum.ConstructorArgument
+);
+        });
+        var constructorInjections = constructorInjectionsRequests.map(function (childRequest) {
+            return resolveRequest(childRequest);
+        });
+        result = _createInstance(constr, constructorInjections);
+        result = _injectProperties(result, childRequests, resolveRequest);
+    }
+    else {
+        result = new constr();
+    }
+    return result;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+else if (binding.type === literal_types_1.BindingTypeEnum.Factory &#x26;&#x26; binding.factory !== null) {
+    result = binding.factory(request.parentContext);
+}
+else if (binding.type === literal_types_1.BindingTypeEnum.Provider &#x26;&#x26; binding.provider !== null) {
+    result = binding.provider(request.parentContext);
+}
+else if (binding.type === literal_types_1.BindingTypeEnum.Instance &#x26;&#x26; binding.implementationType !== null) {
+    result = instantiation_1.<span class="apidocCodeKeywordSpan">resolveInstance</span>(binding.implementationType, childRequests
+, _resolveRequest);
+}
+else {
+    var serviceIdentifier = serialization_1.getServiceIdentifierAsString(request.serviceIdentifier);
+    throw new Error(ERROR_MSGS.INVALID_BINDING_TYPE + &#x22; &#x22; + serviceIdentifier);
+}
+if (typeof binding.onActivation === &#x22;function&#x22;) {
+    result = binding.onActivation(request.parentContext, result);
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.lookup" id="apidoc.module.inversify.lookup">module inversify.lookup</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.lookup.Lookup" id="apidoc.element.inversify.lookup.Lookup">
+        function <span class="apidocSignatureSpan">inversify.lookup.</span>Lookup
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Lookup() {
+    this._map = new Map();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    }
+    else {
+        this.options = {
+            defaultScope: literal_types_1.BindingScopeEnum.Transient
+        };
+    }
+    this.guid = guid_1.guid();
+    this._bindingDictionary = new lookup_1.<span class="apidocCodeKeywordSpan">Lookup</span>();
+    this._snapshots = [];
+    this._middleware = null;
+    this.parent = null;
+    this._metadataReader = new metadata_reader_1.MetadataReader();
+}
+Container.merge = function (container1, container2) {
+    var container = new Container();
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.metadata" id="apidoc.module.inversify.metadata">module inversify.metadata</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.metadata.Metadata" id="apidoc.element.inversify.metadata.Metadata">
+        function <span class="apidocSignatureSpan">inversify.metadata.</span>Metadata
+        <span class="apidocSignatureSpan">(key, value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Metadata(key, value) {
+    this.key = key;
+    this.value = value;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+define([&#x22;require&#x22;, &#x22;exports&#x22;, &#x22;../planning/metadata&#x22;, &#x22;./decorator_utils&#x22;, &#x22;../constants
+/metadata_keys&#x22;], function (require, exports, metadata_1, decorator_utils_1, METADATA_KEY) {
+&#x22;use strict&#x22;;
+Object.defineProperty(exports, &#x22;__esModule&#x22;, { value: true });
+function inject(serviceIdentifier) {
+    return function (target, targetKey, index) {
+        var metadata = new metadata_1.<span class="apidocCodeKeywordSpan">Metadata</span>(METADATA_KEY.INJECT_TAG, serviceIdentifier
+);
+        if (typeof index === &#x22;number&#x22;) {
+            decorator_utils_1.tagParameter(target, targetKey, index, metadata);
+        }
+        else {
+            decorator_utils_1.tagProperty(target, targetKey, metadata);
+        }
+    };
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.metadata_reader" id="apidoc.module.inversify.metadata_reader">module inversify.metadata_reader</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.metadata_reader.MetadataReader" id="apidoc.element.inversify.metadata_reader.MetadataReader">
+        function <span class="apidocSignatureSpan">inversify.metadata_reader.</span>MetadataReader
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function MetadataReader() {
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        };
+    }
+    this.guid = guid_1.guid();
+    this._bindingDictionary = new lookup_1.Lookup();
+    this._snapshots = [];
+    this._middleware = null;
+    this.parent = null;
+    this._metadataReader = new metadata_reader_1.<span class="apidocCodeKeywordSpan">MetadataReader</span>();
+}
+Container.merge = function (container1, container2) {
+    var container = new Container();
+    var bindingDictionary = planner_1.getBindingDictionary(container);
+    var bindingDictionary1 = planner_1.getBindingDictionary(container1);
+    var bindingDictionary2 = planner_1.getBindingDictionary(container2);
+    function copyDictionary(origing, destination) {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.multi_inject" id="apidoc.module.inversify.multi_inject">module inversify.multi_inject</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.multi_inject.multiInject" id="apidoc.element.inversify.multi_inject.multiInject">
+        function <span class="apidocSignatureSpan">inversify.multi_inject.</span>multiInject
         <span class="apidocSignatureSpan">(serviceIdentifier)</span>
         </a>
     </h2>
@@ -3396,30 +3364,6 @@ args.key, args.value, args.avoidConstraints);
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.namedConstraint" id="apidoc.module.inversify.namedConstraint">module inversify.namedConstraint</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.namedConstraint.namedConstraint" id="apidoc.element.inversify.namedConstraint.namedConstraint">
-        function <span class="apidocSignatureSpan">inversify.</span>namedConstraint
-        <span class="apidocSignatureSpan">(value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">namedConstraint = function (value) {
-    var constraint = function (request) {
-        return request !== null &#x26;&#x26; request.target !== null &#x26;&#x26; request.target.matchesTag(key)(value);
-    };
-    constraint.metaData = new metadata_1.Metadata(key, value);
-    return constraint;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.inversify.optional" id="apidoc.module.inversify.optional">module inversify.optional</a></h1>
 
 
@@ -3442,6 +3386,539 @@ args.key, args.value, args.avoidConstraints);
     };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.plan" id="apidoc.module.inversify.plan">module inversify.plan</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.plan.Plan" id="apidoc.element.inversify.plan.Plan">
+        function <span class="apidocSignatureSpan">inversify.plan.</span>Plan
+        <span class="apidocSignatureSpan">(parentContext, rootRequest)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Plan(parentContext, rootRequest) {
+    this.parentContext = parentContext;
+    this.rootRequest = rootRequest;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    function _createSubRequests(metadataReader, avoidConstraints, serviceIdentifier, context, parentRequest, target) {
+try {
+    var activeBindings = void 0;
+    var childRequest_1;
+    if (parentRequest === null) {
+        activeBindings = _getActiveBindings(avoidConstraints, context, null, target);
+        childRequest_1 = new request_1.Request(serviceIdentifier, context, null, activeBindings, target);
+        var plan_2 = new plan_1.<span class="apidocCodeKeywordSpan">Plan</span>(context, childRequest_1);
+        context.addPlan(plan_2);
+    }
+    else {
+        activeBindings = _getActiveBindings(avoidConstraints, context, parentRequest, target);
+        childRequest_1 = parentRequest.addChildRequest(target.serviceIdentifier, activeBindings, target);
+    }
+    activeBindings.forEach(function (binding) {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.planner" id="apidoc.module.inversify.planner">module inversify.planner</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.planner.createMockRequest" id="apidoc.element.inversify.planner.createMockRequest">
+        function <span class="apidocSignatureSpan">inversify.planner.</span>createMockRequest
+        <span class="apidocSignatureSpan">(container, serviceIdentifier, key, value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createMockRequest(container, serviceIdentifier, key, value) {
+    var target = new target_1.Target(literal_types_1.TargetTypeEnum.Variable, &#x22;&#x22;, serviceIdentifier, new metadata_1.Metadata(key
+, value));
+    var context = new context_1.Context(container);
+    var request = new request_1.Request(serviceIdentifier, context, null, [], target);
+    return request;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    return this._bindingDictionary.hasKey(serviceIdentifier);
+};
+Container.prototype.isBoundNamed = function (serviceIdentifier, named) {
+    return this.isBoundTagged(serviceIdentifier, METADATA_KEY.NAMED_TAG, named);
+};
+Container.prototype.isBoundTagged = function (serviceIdentifier, key, value) {
+    var bindings = this._bindingDictionary.get(serviceIdentifier);
+    var request = planner_1.<span class="apidocCodeKeywordSpan">createMockRequest</span>(this, serviceIdentifier, key, value);
+    return bindings.some(function (b) { return b.constraint(request); });
+};
+Container.prototype.snapshot = function () {
+    this._snapshots.push(container_snapshot_1.ContainerSnapshot.of(this._bindingDictionary.clone(), this._middleware));
+};
+Container.prototype.restore = function () {
+    var snapshot = this._snapshots.pop();
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.planner.getBindingDictionary" id="apidoc.element.inversify.planner.getBindingDictionary">
+        function <span class="apidocSignatureSpan">inversify.planner.</span>getBindingDictionary
+        <span class="apidocSignatureSpan">(cntnr)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getBindingDictionary(cntnr) {
+    return cntnr._bindingDictionary;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    this._snapshots = [];
+    this._middleware = null;
+    this.parent = null;
+    this._metadataReader = new metadata_reader_1.MetadataReader();
+}
+Container.merge = function (container1, container2) {
+    var container = new Container();
+    var bindingDictionary = planner_1.<span class="apidocCodeKeywordSpan">getBindingDictionary</span>(container);
+    var bindingDictionary1 = planner_1.getBindingDictionary(container1);
+    var bindingDictionary2 = planner_1.getBindingDictionary(container2);
+    function copyDictionary(origing, destination) {
+        origing.traverse(function (key, value) {
+            value.forEach(function (binding) {
+                destination.add(binding.serviceIdentifier, binding.clone());
+            });
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.planner.plan" id="apidoc.element.inversify.planner.plan">
+        function <span class="apidocSignatureSpan">inversify.planner.</span>plan
+        <span class="apidocSignatureSpan">(metadataReader, container, isMultiInject, targetType, serviceIdentifier, key, value, avoidConstraints)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function plan(metadataReader, container, isMultiInject, targetType, serviceIdentifier, key, value, avoidConstraints) {
+    if (avoidConstraints === void 0) { avoidConstraints = false; }
+    var context = new context_1.Context(container);
+    var target = _createTarget(isMultiInject, targetType, serviceIdentifier, &#x22;&#x22;, key, value);
+    _createSubRequests(metadataReader, avoidConstraints, serviceIdentifier, context, null, target);
+    return context;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+            result = this._planAndResolve()(defaultArgs);
+        }
+        return result;
+    };
+    Container.prototype._planAndResolve = function () {
+        var _this = this;
+        return function (args) {
+            var context = planner_1.<span class="apidocCodeKeywordSpan">plan</span>(_this._metadataReader, _this, args.isMultiInject
+, args.targetType, args.serviceIdentifier, args.key, args.value, args.avoidConstraints);
+            context = args.contextInterceptor(context);
+            var result = resolver_1.resolve(context);
+            return result;
+        };
+    };
+    return Container;
+}());
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.queryable_string" id="apidoc.module.inversify.queryable_string">module inversify.queryable_string</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.queryable_string.QueryableString" id="apidoc.element.inversify.queryable_string.QueryableString">
+        function <span class="apidocSignatureSpan">inversify.queryable_string.</span>QueryableString
+        <span class="apidocSignatureSpan">(str)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function QueryableString(str) {
+    this.str = str;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&#x22;use strict&#x22;;
+Object.defineProperty(exports, &#x22;__esModule&#x22;, { value: true });
+var Target = (function () {
+    function Target(type, name, serviceIdentifier, namedOrTagged) {
+        this.guid = guid_1.guid();
+        this.type = type;
+        this.serviceIdentifier = serviceIdentifier;
+        this.name = new queryable_string_1.<span class="apidocCodeKeywordSpan">QueryableString</span>(name || &#x22;&#x22;);
+        this.metadata = new Array();
+        var metadataItem = null;
+        if (typeof namedOrTagged === &#x22;string&#x22;) {
+            metadataItem = new metadata_1.Metadata(METADATA_KEY.NAMED_TAG, namedOrTagged);
+        }
+        else if (namedOrTagged instanceof metadata_1.Metadata) {
+            metadataItem = namedOrTagged;
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.reflection_utils" id="apidoc.module.inversify.reflection_utils">module inversify.reflection_utils</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.reflection_utils.getDependencies" id="apidoc.element.inversify.reflection_utils.getDependencies">
+        function <span class="apidocSignatureSpan">inversify.reflection_utils.</span>getDependencies
+        <span class="apidocSignatureSpan">(metadataReader, func)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getDependencies(metadataReader, func) {
+    var constructorName = serialization_1.getFunctionName(func);
+    var targets = getTargets(metadataReader, constructorName, func, false);
+    return targets;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        if (target.isArray()) {
+            subChildRequest = childRequest_1.addChildRequest(binding.serviceIdentifier, binding, target);
+        }
+        else {
+            subChildRequest = childRequest_1;
+        }
+        if (binding.type === literal_types_1.BindingTypeEnum.Instance &#x26;&#x26; binding.implementationType !== null) {
+            var dependencies = reflection_utils_1.<span class="apidocCodeKeywordSpan">getDependencies</span>(metadataReader, binding
+.implementationType);
+            dependencies.forEach(function (dependency) {
+                _createSubRequests(metadataReader, false, dependency.serviceIdentifier, context, subChildRequest, dependency);
+            });
+        }
+    });
+}
+catch (error) {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.request" id="apidoc.module.inversify.request">module inversify.request</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.request.Request" id="apidoc.element.inversify.request.Request">
+        function <span class="apidocSignatureSpan">inversify.request.</span>Request
+        <span class="apidocSignatureSpan">(serviceIdentifier, parentContext, parentRequest, bindings, target)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Request(serviceIdentifier, parentContext, parentRequest, bindings, target) {
+    this.guid = guid_1.guid();
+    this.serviceIdentifier = serviceIdentifier;
+    this.parentContext = parentContext;
+    this.parentRequest = parentRequest;
+    this.target = target;
+    this.childRequests = [];
+    this.bindings = (Array.isArray(bindings) ? bindings : [bindings]);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    return target;
+}
+function _getActiveBindings(avoidConstraints, context, parentRequest, target) {
+    var bindings = getBindings(context.container, target.serviceIdentifier);
+    var activeBindings = [];
+    if (avoidConstraints === false) {
+        activeBindings = bindings.filter(function (binding) {
+            var request = new request_1.<span class="apidocCodeKeywordSpan">Request</span>(binding.serviceIdentifier, context, parentRequest
+, binding, target);
+            return binding.constraint(request);
+        });
+    }
+    else {
+        activeBindings = bindings;
+    }
+    _validateActiveBindingCount(target.serviceIdentifier, activeBindings, target, context.container);
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.resolver" id="apidoc.module.inversify.resolver">module inversify.resolver</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.resolver.resolve" id="apidoc.element.inversify.resolver.resolve">
+        function <span class="apidocSignatureSpan">inversify.resolver.</span>resolve
+        <span class="apidocSignatureSpan">(context)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function resolve(context) {
+    return _resolveRequest(context.plan.rootRequest);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+            return result;
+        };
+        Container.prototype._planAndResolve = function () {
+            var _this = this;
+            return function (args) {
+                var context = planner_1.plan(_this._metadataReader, _this, args.isMultiInject, args.targetType, args.serviceIdentifier
+, args.key, args.value, args.avoidConstraints);
+                context = args.contextInterceptor(context);
+                var result = resolver_1.<span class="apidocCodeKeywordSpan">resolve</span>(context);
+                return result;
+            };
+        };
+        return Container;
+    }());
+    exports.Container = Container;
+});
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.inversify.serialization" id="apidoc.module.inversify.serialization">module inversify.serialization</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.serialization.circularDependencyToException" id="apidoc.element.inversify.serialization.circularDependencyToException">
+        function <span class="apidocSignatureSpan">inversify.serialization.</span>circularDependencyToException
+        <span class="apidocSignatureSpan">(request, previousServiceIdentifiers)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function circularDependencyToException(request, previousServiceIdentifiers) {
+    if (previousServiceIdentifiers === void 0) { previousServiceIdentifiers = []; }
+    var parentServiceIdentifier = getServiceIdentifierAsString(request.serviceIdentifier);
+    previousServiceIdentifiers.push(parentServiceIdentifier);
+    request.childRequests.forEach(function (childRequest) {
+        var childServiceIdentifier = getServiceIdentifierAsString(childRequest.serviceIdentifier);
+        if (previousServiceIdentifiers.indexOf(childServiceIdentifier) === -1) {
+            if (childRequest.childRequests.length &#x3e; 0) {
+                circularDependencyToException(childRequest, previousServiceIdentifiers);
+            }
+            else {
+                previousServiceIdentifiers.push(childServiceIdentifier);
+            }
+        }
+        else {
+            previousServiceIdentifiers.push(childServiceIdentifier);
+            var services = previousServiceIdentifiers.reduce(function (prev, curr) {
+                return (prev !== &#x22;&#x22;) ? prev + &#x22; -&#x3e; &#x22; + curr : &#x22;&#x22; + curr;
+            }, &#x22;&#x22;);
+            throw new Error(ERROR_MSGS.CIRCULAR_DEPENDENCY + &#x22; &#x22; + services);
+        }
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+                    _createSubRequests(metadataReader, false, dependency.serviceIdentifier, context, subChildRequest, dependency
+);
+                });
+            }
+        });
+    }
+    catch (error) {
+        if (error instanceof RangeError &#x26;&#x26; parentRequest !== null) {
+            serialization_1.<span class="apidocCodeKeywordSpan">circularDependencyToException</span>(parentRequest.parentContext
+.plan.rootRequest);
+        }
+        else {
+            throw new Error(error.message);
+        }
+    }
+}
+function getBindings(container, serviceIdentifier) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.serialization.getFunctionName" id="apidoc.element.inversify.serialization.getFunctionName">
+        function <span class="apidocSignatureSpan">inversify.serialization.</span>getFunctionName
+        <span class="apidocSignatureSpan">(v)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getFunctionName(v) {
+    if (v.name) {
+        return v.name;
+    }
+    else {
+        var name_1 = v.toString();
+        var match = name_1.match(/^function\s*([^\s(]+)/);
+        return match ? match[1] : &#x22;Anonymous function: &#x22; + name_1;
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+
+define([&#x22;require&#x22;, &#x22;exports&#x22;, &#x22;../utils/serialization&#x22;, &#x22;./target&#x22;, &#x22;../constants/error_msgs
+&#x22;, &#x22;../constants/metadata_keys&#x22;, &#x22;../constants/literal_types&#x22;], function (require, exports, serialization_1
+, target_1, ERROR_MSGS, METADATA_KEY, literal_types_1) {
+&#x22;use strict&#x22;;
+Object.defineProperty(exports, &#x22;__esModule&#x22;, { value: true });
+function getDependencies(metadataReader, func) {
+    var constructorName = serialization_1.<span class="apidocCodeKeywordSpan">getFunctionName</span>(func);
+    var targets = getTargets(metadataReader, constructorName, func, false);
+    return targets;
+}
+exports.getDependencies = getDependencies;
+function getTargets(metadataReader, constructorName, func, isBaseClass) {
+    var metadata = metadataReader.getConstructorMetadata(func);
+    var serviceIdentifiers = metadata.compilerGeneratedMetadata;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.serialization.getServiceIdentifierAsString" id="apidoc.element.inversify.serialization.getServiceIdentifierAsString">
+        function <span class="apidocSignatureSpan">inversify.serialization.</span>getServiceIdentifierAsString
+        <span class="apidocSignatureSpan">(serviceIdentifier)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getServiceIdentifierAsString(serviceIdentifier) {
+    if (typeof serviceIdentifier === &#x22;function&#x22;) {
+        var _serviceIdentifier = serviceIdentifier;
+        return _serviceIdentifier.name;
+    }
+    else if (typeof serviceIdentifier === &#x22;symbol&#x22;) {
+        return serviceIdentifier.toString();
+    }
+    else {
+        var _serviceIdentifier = serviceIdentifier;
+        return _serviceIdentifier;
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    return this.bind(serviceIdentifier);
+};
+Container.prototype.unbind = function (serviceIdentifier) {
+    try {
+        this._bindingDictionary.remove(serviceIdentifier);
+    }
+    catch (e) {
+        throw new Error(ERROR_MSGS.CANNOT_UNBIND + &#x22; &#x22; + serialization_1.<span class="apidocCodeKeywordSpan">getServiceIdentifierAsString
+</span>(serviceIdentifier));
+    }
+};
+Container.prototype.unbindAll = function () {
+    this._bindingDictionary = new lookup_1.Lookup();
+};
+Container.prototype.isBound = function (serviceIdentifier) {
+    return this._bindingDictionary.hasKey(serviceIdentifier);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.serialization.listMetadataForTarget" id="apidoc.element.inversify.serialization.listMetadataForTarget">
+        function <span class="apidocSignatureSpan">inversify.serialization.</span>listMetadataForTarget
+        <span class="apidocSignatureSpan">(serviceIdentifierString, target)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function listMetadataForTarget(serviceIdentifierString, target) {
+    if (target.isTagged() || target.isNamed()) {
+        var m_1 = &#x22;&#x22;;
+        var namedTag = target.getNamedTag();
+        var otherTags = target.getCustomTags();
+        if (namedTag !== null) {
+            m_1 += namedTag.toString() + &#x22;\n&#x22;;
+        }
+        if (otherTags !== null) {
+            otherTags.forEach(function (tag) {
+                m_1 += tag.toString() + &#x22;\n&#x22;;
+            });
+        }
+        return &#x22; &#x22; + serviceIdentifierString + &#x22;\n &#x22; + serviceIdentifierString + &#x22; - &#x22; + m_1;
+    }
+    else {
+        return &#x22; &#x22; + serviceIdentifierString;
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+case binding_count_1.BindingCount.NoBindingsAvailable:
+    if (target.isOptional() === true) {
+        return bindings;
+    }
+    else {
+        var serviceIdentifierString = serialization_1.getServiceIdentifierAsString(serviceIdentifier);
+        var msg = ERROR_MSGS.NOT_REGISTERED;
+        msg += serialization_1.<span class="apidocCodeKeywordSpan">listMetadataForTarget</span>(serviceIdentifierString, target);
+        msg += serialization_1.listRegisteredBindingsForServiceIdentifier(container, serviceIdentifierString, getBindings);
+        throw new Error(msg);
+    }
+case binding_count_1.BindingCount.OnlyOneBindingAvailable:
+    if (target.isArray() === false) {
+        return bindings;
+    }
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.inversify.serialization.listRegisteredBindingsForServiceIdentifier" id="apidoc.element.inversify.serialization.listRegisteredBindingsForServiceIdentifier">
+        function <span class="apidocSignatureSpan">inversify.serialization.</span>listRegisteredBindingsForServiceIdentifier
+        <span class="apidocSignatureSpan">(container, serviceIdentifier, getBindings)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function listRegisteredBindingsForServiceIdentifier(container, serviceIdentifier, getBindings) {
+    var registeredBindingsList = &#x22;&#x22;;
+    var registeredBindings = getBindings(container, serviceIdentifier);
+    if (registeredBindings.length !== 0) {
+        registeredBindingsList = &#x22;\nRegistered bindings:&#x22;;
+        registeredBindings.forEach(function (binding) {
+            var name = &#x22;Object&#x22;;
+            if (binding.implementationType !== null) {
+                name = getFunctionName(binding.implementationType);
+            }
+            registeredBindingsList = registeredBindingsList + &#x22;\n &#x22; + name;
+            if (binding.constraint.metaData) {
+                registeredBindingsList = registeredBindingsList + &#x22; - &#x22; + binding.constraint.metaData;
+            }
+        });
+    }
+    return registeredBindingsList;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    if (target.isOptional() === true) {
+        return bindings;
+    }
+    else {
+        var serviceIdentifierString = serialization_1.getServiceIdentifierAsString(serviceIdentifier);
+        var msg = ERROR_MSGS.NOT_REGISTERED;
+        msg += serialization_1.listMetadataForTarget(serviceIdentifierString, target);
+        msg += serialization_1.<span class="apidocCodeKeywordSpan">listRegisteredBindingsForServiceIdentifier</span>(container,
+serviceIdentifierString, getBindings);
+        throw new Error(msg);
+    }
+case binding_count_1.BindingCount.OnlyOneBindingAvailable:
+    if (target.isArray() === false) {
+        return bindings;
+    }
+case binding_count_1.BindingCount.MultipleBindingsAvailable:
+...</pre></li>
     </ul>
 
 
@@ -3476,36 +3953,63 @@ args.key, args.value, args.avoidConstraints);
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.taggedConstraint" id="apidoc.module.inversify.taggedConstraint">module inversify.taggedConstraint</a></h1>
+<h1><a href="#apidoc.module.inversify.target" id="apidoc.module.inversify.target">module inversify.target</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.inversify.taggedConstraint.taggedConstraint" id="apidoc.element.inversify.taggedConstraint.taggedConstraint">
-        function <span class="apidocSignatureSpan">inversify.</span>taggedConstraint
-        <span class="apidocSignatureSpan">(key)</span>
+        <a href="#apidoc.element.inversify.target.Target" id="apidoc.element.inversify.target.Target">
+        function <span class="apidocSignatureSpan">inversify.target.</span>Target
+        <span class="apidocSignatureSpan">(type, name, serviceIdentifier, namedOrTagged)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">taggedConstraint = function (key) { return function (value) {
-    var constraint = function (request) {
-        return request !== null &#x26;&#x26; request.target !== null &#x26;&#x26; request.target.matchesTag(key)(value);
-    };
-    constraint.metaData = new metadata_1.Metadata(key, value);
-    return constraint;
-}; }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>description and source-code<pre class="apidocCodePre">function Target(type, name, serviceIdentifier, namedOrTagged) {
+    this.guid = guid_1.guid();
+    this.type = type;
+    this.serviceIdentifier = serviceIdentifier;
+    this.name = new queryable_string_1.QueryableString(name || &#x22;&#x22;);
+    this.metadata = new Array();
+    var metadataItem = null;
+    if (typeof namedOrTagged === &#x22;string&#x22;) {
+        metadataItem = new metadata_1.Metadata(METADATA_KEY.NAMED_TAG, namedOrTagged);
+    }
+    else if (namedOrTagged instanceof metadata_1.Metadata) {
+        metadataItem = namedOrTagged;
+    }
+    if (metadataItem !== null) {
+        this.metadata.push(metadataItem);
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+function getBindingDictionary(cntnr) {
+    return cntnr._bindingDictionary;
+}
+exports.getBindingDictionary = getBindingDictionary;
+function _createTarget(isMultiInject, targetType, serviceIdentifier, name, key, value) {
+    var metadataKey = isMultiInject ? METADATA_KEY.MULTI_INJECT_TAG : METADATA_KEY.INJECT_TAG;
+    var injectMetadata = new metadata_1.Metadata(metadataKey, serviceIdentifier);
+    var target = new target_1.<span class="apidocCodeKeywordSpan">Target</span>(targetType, name, serviceIdentifier, injectMetadata
+);
+    if (key !== undefined) {
+        var tagMetadata = new metadata_1.Metadata(key, value);
+        target.metadata.push(tagMetadata);
+    }
+    return target;
+}
+function _getActiveBindings(avoidConstraints, context, parentRequest, target) {
+...</pre></li>
     </ul>
 
 
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.targetName" id="apidoc.module.inversify.targetName">module inversify.targetName</a></h1>
+<h1><a href="#apidoc.module.inversify.target_name" id="apidoc.module.inversify.target_name">module inversify.target_name</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.inversify.targetName.targetName" id="apidoc.element.inversify.targetName.targetName">
-        function <span class="apidocSignatureSpan">inversify.</span>targetName
+        <a href="#apidoc.element.inversify.target_name.targetName" id="apidoc.element.inversify.target_name.targetName">
+        function <span class="apidocSignatureSpan">inversify.target_name.</span>targetName
         <span class="apidocSignatureSpan">(name)</span>
         </a>
     </h2>
@@ -3516,64 +4020,6 @@ args.key, args.value, args.avoidConstraints);
         decorator_utils_1.tagParameter(target, targetKey, index, metadata);
     };
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.traverseAncerstors" id="apidoc.module.inversify.traverseAncerstors">module inversify.traverseAncerstors</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.traverseAncerstors.traverseAncerstors" id="apidoc.element.inversify.traverseAncerstors.traverseAncerstors">
-        function <span class="apidocSignatureSpan">inversify.</span>traverseAncerstors
-        <span class="apidocSignatureSpan">(request, constraint)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">traverseAncerstors = function (request, constraint) {
-    var parent = request.parentRequest;
-    if (parent !== null) {
-        return constraint(parent) ? true : traverseAncerstors(parent, constraint);
-    }
-    else {
-        return false;
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.inversify.typeConstraint" id="apidoc.module.inversify.typeConstraint">module inversify.typeConstraint</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.inversify.typeConstraint.typeConstraint" id="apidoc.element.inversify.typeConstraint.typeConstraint">
-        function <span class="apidocSignatureSpan">inversify.</span>typeConstraint
-        <span class="apidocSignatureSpan">(type)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">typeConstraint = function (type) { return function (request) {
-    var binding = null;
-    if (request !== null) {
-        binding = request.bindings[0];
-        if (typeof type === &#x22;string&#x22;) {
-            var serviceIdentifier = binding.serviceIdentifier;
-            return serviceIdentifier === type;
-        }
-        else {
-            var constructor = request.bindings[0].implementationType;
-            return type === constructor;
-        }
-    }
-    return false;
-}; }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
